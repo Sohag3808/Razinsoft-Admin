@@ -8,8 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="assets/images/Circle-soft-image.png" type="image/x-icon">
-    <title>Razinsoft-Dashbord</title>
+    <link rel="shortcut icon" href="assets/images/Faveicon.png" type="image/x-icon">
+    <title>Razinsoft-Admin</title>
     <meta name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="">
@@ -64,50 +64,35 @@
                     </div>
                 </div>
                 <div class="app-header-right">
-                    <div class="header-btn-lg pr-0">
-                        <div class="widget-content p-0">
-                            <div class="widget-content-wrapper">
-                                <div class="nabvarTop_profile" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
-                                    <div class="btn-group">
-                                        <a class="p-0 btn">
-                                            <img width="42" class="rounded-circle" src="assets/images/avatars/9.jpg"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <div class="ms-2 header-user-info profile-info">
-                                        <div class="widget-heading">
-                                            Razinsoft
-                                        </div>
-                                        <i class="fa-solid fa-angle-down"></i>
-                                    </div>
-                                </div>
-
-                                <div tabindex="-1" role="menu" aria-hidden="true"
-                                    class="dropdown-menu dropdown-menu-right profile-item">
-
-                                    <a href="#" tabindex="0" class="dropdown-item"><i class="fa-solid fa-user mr-2"></i>
-                                        User
-                                        Account
-                                    </a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-gear mr-2"></i>Settings</a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-gear mr-2"></i>Profile</a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-key mr-2"></i>Change Password</a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-right-from-bracket mr-2"></i>Logout</a>
-                                </div>
-
+                    <div class="user-profile-box dropdown">
+                        <div class="nav-profile-box dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="profile-image">
+                                <a href=""><img class="profilepic" src="assets/images/avatars/MD.png" alt=""></a>
                             </div>
-
+                            <div class="profile-content">
+                                <span>Md Sohag Sheke</span>
+                                <i class="fa-solid fa-angle-down dropIcon"></i>
+                            </div>
                         </div>
+
+                        <div class="dropdown-menu profile-item">
+
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-user me-2"></i>User
+                                Account
+                            </a>
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-gear me-2"></i>Settings</a>
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-gear me-2"></i>Profile</a>
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-key me-2"></i>Change Password</a>
+                            <a href="#" class="dropdown-item"><i
+                                    class="fa-solid fa-right-from-bracket me-2"></i>Logout</a>
+                        </div>
+
                     </div>
+
                 </div>
+
             </div>
         </div>
-
 
         <div class="ui-theme-settings">
             <button type="button" id="TooltipDemo" class="btn-open-options btn ">
@@ -172,7 +157,7 @@
                                 <li class="list-group-item">
                                     <h5 class="pb-3 teameTa">Choose Color Scheme
                                     </h5>
-                                    <div class="theme-settings-swatches">
+                                    <div class="theme-settings-switches">
                                         <div class="theme-box">
                                             <div class="theme-color-holder switch-header-cs-class switch-sidebar-cs-class"
                                                 id="colorDefault" data-class="" onclick="storeColorScheme('')">
@@ -263,8 +248,8 @@
                                         <div class="widget-content-wrapper">
                                             <div class="switch has-switch switch-container-class"
                                                 data-class="fixed-footer">
-                                                <input type="checkbox" data-toggle="toggle" id="footerCheck"
-                                                    data-onstyle="success" onclick="toggleFooter()">
+                                                <input type="checkbox" class="form-check-input" data-toggle="toggle"
+                                                    id="footerCheck" data-onstyle="success" onclick="toggleFooter()">
                                             </div>
                                             <div class="widget-content-left ms-3">
                                                 <div class="widget-heading">Fixed Footer</div>
@@ -289,27 +274,21 @@
                         <img src="assets/images/razinsoft-final-logo.png" alt="">
                     </div>
                     <div class="branding-logo-forMobile">
-                        <img src="assets/images/R_mini-logo.png" alt="">
+                        <a href="index.html"><img src="assets/images/R_mini-logo.png" alt=""></a>
                     </div>
                     <div class="app-sidebar-inner">
-                        <div class="nabvarTop_profile py-4">
-                            <div class="btn-group">
-                                <a class="p-0 btn">
-                                    <img width="42" class="rounded-circle" src="assets/images/avatars/9.jpg" alt="">
-                                </a>
+                        <div class="nav-profile-box py-1">
+                            <div class="profile-image">
+                                <a href=""><img class="profilepic" src="assets/images/avatars/MD.png" alt=""></a>
                             </div>
-                            <div class="ms-2 header-user-info sidebar-text-light">
-                                <div class="widget-heading ">
-                                    Razinsoft
-                                </div>
-                                <div class="widget-subheading">
-                                    razinsoftltd@gmail.com
-                                </div>
+                            <div class="profile-content">
+                                <h2 class="nameSize">Md Sohag Sheke</h2>
+                                <p class="paraSize">sohag.@gmail.com</p>
                             </div>
                         </div>
                         <ul class="vertical-nav-menu">
                             <li>
-                                <a href="index.html" class="">
+                                <a href="index.html">
                                     <i class="fa-solid fa-gauge menu-icon"></i>
                                     Dashboard
                                 </a>
@@ -391,9 +370,10 @@
                                     <li class="sub-menu">
                                         <a href="components/notifications.html">
                                             <i class="fa-regular fa-bell mr-1"></i>
-                                             Notifications
+                                            Notifications
                                         </a>
                                     </li>
+
                                     <li class="sub-menu">
                                         <a href="components/sweetalert2.html">
                                             <i class="fa-solid fa-exclamation mr-1"></i>
@@ -403,7 +383,7 @@
                                     <li class="sub-menu">
                                         <a href="components/modals.html">
                                             <i class="fa-solid fa-object-ungroup mr-1"></i>
-                                             Modals
+                                            Modals
                                         </a>
                                     </li>
                                     <li class="sub-menu">
@@ -494,20 +474,20 @@
                                     Logout
                                 </a>
                             </li>
+
                         </ul>
 
                         <div class="sideBarfooter">
                             <a href="" class="fullbtn"><i class="fa-solid fa-gear"></i></a>
-                            <button type="button" class="fullbtn" onclick="toggleFullScreen(document.body)"><i
+                            <button type="button" class="fullbtn hite-icon" onclick="toggleFullScreen(document.body)"><i
                                     class="fa-solid fa-expand"></i></button>
-                            <button class="fullbtn"><i class="fa-solid fa-eye-slash"></i></button>
-                            <button class="fullbtn"><i class="fa-solid fa-power-off"></i></button>
+                            <button class="fullbtn hite-icon"><i class="fa-solid fa-eye-slash"></i></button>
+                            <button class="fullbtn hite-icon"><i class="fa-solid fa-power-off"></i></button>
                         </div>
 
                     </div>
                 </div>
             </div>
-
             <!-- ****Body-Section***** -->
             <div class="app-main-outer">
                 <div class="app-main-inner">

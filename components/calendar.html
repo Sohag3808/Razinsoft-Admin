@@ -8,8 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="../assets/images/Circle-soft-image.png" type="image/x-icon">
-    <title>Razinsoft-Dashbord</title>
+    <link rel="shortcut icon" href="../assets/images/Faveicon.png" type="image/x-icon">
+    <title>Razinsoft-Admin</title>
     <meta name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="">
@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/evo-calendar.min.css">
+    <link rel="stylesheet" href="../assets/css/mini-event-calendar.min.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
 </head>
 
@@ -64,50 +66,35 @@
                     </div>
                 </div>
                 <div class="app-header-right">
-                    <div class="header-btn-lg pr-0">
-                        <div class="widget-content p-0">
-                            <div class="widget-content-wrapper">
-                                <div class="nabvarTop_profile" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
-                                    <div class="btn-group">
-                                        <a class="p-0 btn">
-                                            <img width="42" class="rounded-circle" src="../assets/images/avatars/9.jpg"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <div class="ms-2 header-user-info profile-info">
-                                        <div class="widget-heading">
-                                            Razinsoft
-                                        </div>
-                                        <i class="fa-solid fa-angle-down"></i>
-                                    </div>
-                                </div>
-
-                                <div tabindex="-1" role="menu" aria-hidden="true"
-                                    class="dropdown-menu dropdown-menu-right profile-item">
-
-                                    <a href="#" tabindex="0" class="dropdown-item"><i class="fa-solid fa-user mr-2"></i>
-                                        User
-                                        Account
-                                    </a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-gear mr-2"></i>Settings</a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-gear mr-2"></i>Profile</a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-key mr-2"></i>Change Password</a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-right-from-bracket mr-2"></i>Logout</a>
-                                </div>
-
+                    <div class="user-profile-box dropdown">
+                        <div class="nav-profile-box dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="profile-image">
+                                <a href=""><img class="profilepic" src="../assets/images/avatars/MD.png" alt=""></a>
                             </div>
-
+                            <div class="profile-content">
+                                <span>Md Sohag Sheke</span>
+                                <i class="fa-solid fa-angle-down dropIcon"></i>
+                            </div>
                         </div>
+
+                        <div class="dropdown-menu profile-item">
+
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-user me-2"></i>User
+                                Account
+                            </a>
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-gear me-2"></i>Settings</a>
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-gear me-2"></i>Profile</a>
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-key me-2"></i>Change Password</a>
+                            <a href="#" class="dropdown-item"><i
+                                    class="fa-solid fa-right-from-bracket me-2"></i>Logout</a>
+                        </div>
+
                     </div>
+
                 </div>
+
             </div>
         </div>
-
 
         <div class="ui-theme-settings">
             <button type="button" id="TooltipDemo" class="btn-open-options btn ">
@@ -172,7 +159,7 @@
                                 <li class="list-group-item">
                                     <h5 class="pb-3 teameTa">Choose Color Scheme
                                     </h5>
-                                    <div class="theme-settings-swatches">
+                                    <div class="theme-settings-switches">
                                         <div class="theme-box">
                                             <div class="theme-color-holder switch-header-cs-class switch-sidebar-cs-class"
                                                 id="colorDefault" data-class="" onclick="storeColorScheme('')">
@@ -263,8 +250,8 @@
                                         <div class="widget-content-wrapper">
                                             <div class="switch has-switch switch-container-class"
                                                 data-class="fixed-footer">
-                                                <input type="checkbox" data-toggle="toggle" id="footerCheck"
-                                                    data-onstyle="success" onclick="toggleFooter()">
+                                                <input type="checkbox" class="form-check-input" data-toggle="toggle"
+                                                    id="footerCheck" data-onstyle="success" onclick="toggleFooter()">
                                             </div>
                                             <div class="widget-content-left ms-3">
                                                 <div class="widget-heading">Fixed Footer</div>
@@ -289,22 +276,16 @@
                         <img src="../assets/images/razinsoft-final-logo.png" alt="">
                     </div>
                     <div class="branding-logo-forMobile">
-                        <img src="../assets/images/R_mini-logo.png" alt="">
+                        <a href="index.html"><img src="../assets/images/R_mini-logo.png" alt=""></a>
                     </div>
                     <div class="app-sidebar-inner">
-                        <div class="nabvarTop_profile py-4">
-                            <div class="btn-group">
-                                <a class="p-0 btn">
-                                    <img width="42" class="rounded-circle" src="../assets/images/avatars/9.jpg" alt="">
-                                </a>
+                        <div class="nav-profile-box py-1">
+                            <div class="profile-image">
+                                <a href=""><img class="profilepic" src="../assets/images/avatars/MD.png" alt=""></a>
                             </div>
-                            <div class="ms-2 header-user-info sidebar-text-light">
-                                <div class="widget-heading ">
-                                    Razinsoft
-                                </div>
-                                <div class="widget-subheading">
-                                    razinsoftltd@gmail.com
-                                </div>
+                            <div class="profile-content">
+                                <h2 class="nameSize">Md Sohag Sheke</h2>
+                                <p class="paraSize">sohag.@gmail.com</p>
                             </div>
                         </div>
                         <ul class="vertical-nav-menu">
@@ -499,18 +480,16 @@
 
                         <div class="sideBarfooter">
                             <a href="" class="fullbtn"><i class="fa-solid fa-gear"></i></a>
-                            <button type="button" class="fullbtn" onclick="toggleFullScreen(document.body)"><i
+                            <button type="button" class="fullbtn hite-icon" onclick="toggleFullScreen(document.body)"><i
                                     class="fa-solid fa-expand"></i></button>
-                            <button class="fullbtn"><i class="fa-solid fa-eye-slash"></i></button>
-                            <button class="fullbtn"><i class="fa-solid fa-power-off"></i></button>
+                            <button class="fullbtn hite-icon"><i class="fa-solid fa-eye-slash"></i></button>
+                            <button class="fullbtn hite-icon"><i class="fa-solid fa-power-off"></i></button>
                         </div>
 
                     </div>
                 </div>
             </div>
-
             <!-- ****Body-Section***** -->
-
             <div class="app-main-outer">
                 <div class="app-main-inner">
                     <div class="app-page-title">
@@ -519,42 +498,118 @@
                                 <div class="page-title-icon">
                                     <i class="fa-regular fa-calendar"></i>
                                 </div>
-                                <div>Calendar</div>
+                                <div>Calendar
+                                    <div class="page-title-subheading">Implement in your Calender Use
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="page-title-actions">
+                                <button type="button" data-toggle="tooltip" title="Example Tooltip"
+                                    data-placement="bottom" class="btn-shadow mr-3 btn btn-dark">
+                                    <i class="fa fa-star"></i>
+                                </button>
+                                <div class="d-inline-block dropdown">
+                                    <button type="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                                        <span class="btn-icon-wrapper pr-2 opacity-7">
+                                            <i class="fa fa-business-time fa-w-20"></i>
+                                        </span>
+                                        Buttons
+                                    </button>
+                                    <div tabindex="-1" role="menu" aria-hidden="true"
+                                        class="dropdown-menu dropdown-menu-right">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon lnr-inbox"></i>
+                                                    <span>
+                                                        Inbox
+                                                    </span>
+                                                    <div class="ml-auto badge badge-pill badge-secondary">86</div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon lnr-book"></i>
+                                                    <span>
+                                                        Book
+                                                    </span>
+                                                    <div class="ml-auto badge badge-pill badge-danger">5</div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon lnr-picture"></i>
+                                                    <span>
+                                                        Picture
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a disabled href="javascript:void(0);" class="nav-link disabled">
+                                                    <i class="nav-link-icon lnr-file-empty"></i>
+                                                    <span>
+                                                        File Disabled
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6 m-auto">
-                                <div class="mt-2" id="example"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <div class="main-card mb-3 card d-flex flex-column h-100">
+                                <div class="card-body">
+                                    <div class="mt-2" id="example"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="main-card mb-3 card d-flex flex-column h-100">
+                                <div class="card-body">
+                                    <div id="wrapper">
+                                        <div>
+                                            <div id="calendar2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12 ">
+                            <div class="main-card mb-3 card d-flex flex-column h-100">
+                                <div class="card-body">
+                                    <div class="hero" id="calendarTwo"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <!-- ****END-Body-Section***** -->
 
-
-
-            <!-- ****Body-Section***** -->
-
-            <div class="app-wrapper-footer">
-                <div class="app-footer">
-                    <div class="app-footer-inner">
-                        <div>
-                            © 2023 Developed by <a class="footercom" href="https://razinsoft.com/" target="blank"
-                                style="color:#4e06fe; font-weight: bold;">Razinsoft.</a>
-                        </div>
-                        <div class="d-none d-sm-block">
-                            <i class="fa-solid fa-phone"></i>
-                            <span> +8801714231625</span>
-                        </div>
-                        <div class="d-none d-sm-block">
-                            <i class="fa-solid fa-envelope mr-1"></i>
-                            <span>razinsoftltd@gmail.com</span>
+                <div class="app-wrapper-footer">
+                    <div class="app-footer">
+                        <div class="app-footer-inner">
+                            <div>
+                                © 2023 Developed by <a class="footercom" href="https://razinsoft.com/" target="blank"
+                                    style="color:#4e06fe; font-weight: bold;">Razinsoft.</a>
+                            </div>
+                            <div class="d-none d-sm-block">
+                                <i class="fa-solid fa-phone"></i>
+                                <span> +8801714231625</span>
+                            </div>
+                            <div class="d-none d-sm-block">
+                                <i class="fa-solid fa-envelope mr-1"></i>
+                                <span>razinsoftltd@gmail.com</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
 
@@ -563,17 +618,11 @@
     <script type="text/javascript" src="../assets/scripts/main.js"></script>
     <script src="../assets/scripts/font-awesome.min.js"></script>
     <script src="../assets/scripts/full-screen.js"></script>
+    <script src="../assets/scripts/evo-calendar.min.js"></script>
     <script src="../assets/scripts/jquery.bs.calendar.js"></script>
+    <script src="../assets/scripts/Calender.js"></script>
     <script src="../assets/scripts/scripts.js"></script>
-
-    <script>
-        $('#example').bsCalendar({
-            width: '100%',
-
-
-        });
-
-    </script>
+    <script src="../assets/scripts/mini-event-calendar.min.js"></script>
 
 </body>
 

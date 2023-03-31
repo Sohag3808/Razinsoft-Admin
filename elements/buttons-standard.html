@@ -8,8 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="../assets/images/Circle-soft-image.png" type="image/x-icon">
-    <title>Razinsoft-Dashbord</title>
+    <link rel="shortcut icon" href="../assets/images/Faveicon.png" type="image/x-icon">
+    <title>Razinsoft-Admin</title>
     <meta name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="">
@@ -64,50 +64,35 @@
                     </div>
                 </div>
                 <div class="app-header-right">
-                    <div class="header-btn-lg pr-0">
-                        <div class="widget-content p-0">
-                            <div class="widget-content-wrapper">
-                                <div class="nabvarTop_profile" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
-                                    <div class="btn-group">
-                                        <a class="p-0 btn">
-                                            <img width="42" class="rounded-circle" src="../assets/images/avatars/9.jpg"
-                                                alt="">
-                                        </a>
-                                    </div>
-                                    <div class="ms-2 header-user-info profile-info">
-                                        <div class="widget-heading">
-                                            Razinsoft
-                                        </div>
-                                        <i class="fa-solid fa-angle-down"></i>
-                                    </div>
-                                </div>
-
-                                <div tabindex="-1" role="menu" aria-hidden="true"
-                                    class="dropdown-menu dropdown-menu-right profile-item">
-
-                                    <a href="#" tabindex="0" class="dropdown-item"><i class="fa-solid fa-user mr-2"></i>
-                                        User
-                                        Account
-                                    </a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-gear mr-2"></i>Settings</a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-gear mr-2"></i>Profile</a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-key mr-2"></i>Change Password</a>
-                                    <a href="#" tabindex="0" class="dropdown-item"><i
-                                            class="fa-solid fa-right-from-bracket mr-2"></i>Logout</a>
-                                </div>
-
+                    <div class="user-profile-box dropdown">
+                        <div class="nav-profile-box dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="profile-image">
+                                <a href=""><img class="profilepic" src="../assets/images/avatars/MD.png" alt=""></a>
                             </div>
-
+                            <div class="profile-content">
+                                <span>Md Sohag Sheke</span>
+                                <i class="fa-solid fa-angle-down dropIcon"></i>
+                            </div>
                         </div>
+
+                        <div class="dropdown-menu profile-item">
+
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-user me-2"></i>User
+                                Account
+                            </a>
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-gear me-2"></i>Settings</a>
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-gear me-2"></i>Profile</a>
+                            <a href="#" class="dropdown-item"><i class="fa-solid fa-key me-2"></i>Change Password</a>
+                            <a href="#" class="dropdown-item"><i
+                                    class="fa-solid fa-right-from-bracket me-2"></i>Logout</a>
+                        </div>
+
                     </div>
+
                 </div>
+
             </div>
         </div>
-
 
         <div class="ui-theme-settings">
             <button type="button" id="TooltipDemo" class="btn-open-options btn ">
@@ -172,7 +157,7 @@
                                 <li class="list-group-item">
                                     <h5 class="pb-3 teameTa">Choose Color Scheme
                                     </h5>
-                                    <div class="theme-settings-swatches">
+                                    <div class="theme-settings-switches">
                                         <div class="theme-box">
                                             <div class="theme-color-holder switch-header-cs-class switch-sidebar-cs-class"
                                                 id="colorDefault" data-class="" onclick="storeColorScheme('')">
@@ -263,8 +248,8 @@
                                         <div class="widget-content-wrapper">
                                             <div class="switch has-switch switch-container-class"
                                                 data-class="fixed-footer">
-                                                <input type="checkbox" data-toggle="toggle" id="footerCheck"
-                                                    data-onstyle="success" onclick="toggleFooter()">
+                                                <input type="checkbox" class="form-check-input" data-toggle="toggle"
+                                                    id="footerCheck" data-onstyle="success" onclick="toggleFooter()">
                                             </div>
                                             <div class="widget-content-left ms-3">
                                                 <div class="widget-heading">Fixed Footer</div>
@@ -286,25 +271,19 @@
             <div class="app-sidebar sidebar-shadow">
                 <div class="scrollbar-sidebar pb-3">
                     <div class="branding-logo">
-                        <a href="../index.html"><img src="../assets/images/razinsoft-final-logo.png" alt=""></a>                        
+                        <img src="../assets/images/razinsoft-final-logo.png" alt="">
                     </div>
                     <div class="branding-logo-forMobile">
-                        <img src="../assets/images/R_mini-logo.png" alt="">
+                        <a href="index.html"><img src="../assets/images/R_mini-logo.png" alt=""></a>
                     </div>
                     <div class="app-sidebar-inner">
-                        <div class="nabvarTop_profile py-4">
-                            <div class="btn-group">
-                                <a class="p-0 btn">
-                                    <img width="42" class="rounded-circle" src="../assets/images/avatars/9.jpg" alt="">
-                                </a>
+                        <div class="nav-profile-box py-1">
+                            <div class="profile-image">
+                                <a href=""><img class="profilepic" src="../assets/images/avatars/MD.png" alt=""></a>
                             </div>
-                            <div class="ms-2 header-user-info sidebar-text-light">
-                                <div class="widget-heading ">
-                                    Razinsoft
-                                </div>
-                                <div class="widget-subheading">
-                                    razinsoftltd@gmail.com
-                                </div>
+                            <div class="profile-content">
+                                <h2 class="nameSize">Md Sohag Sheke</h2>
+                                <p class="paraSize">sohag.@gmail.com</p>
                             </div>
                         </div>
                         <ul class="vertical-nav-menu">
@@ -499,10 +478,10 @@
 
                         <div class="sideBarfooter">
                             <a href="" class="fullbtn"><i class="fa-solid fa-gear"></i></a>
-                            <button type="button" class="fullbtn" onclick="toggleFullScreen(document.body)"><i
+                            <button type="button" class="fullbtn hite-icon" onclick="toggleFullScreen(document.body)"><i
                                     class="fa-solid fa-expand"></i></button>
-                            <button class="fullbtn"><i class="fa-solid fa-eye-slash"></i></button>
-                            <button class="fullbtn"><i class="fa-solid fa-power-off"></i></button>
+                            <button class="fullbtn hite-icon"><i class="fa-solid fa-eye-slash"></i></button>
+                            <button class="fullbtn hite-icon"><i class="fa-solid fa-power-off"></i></button>
                         </div>
 
                     </div>
@@ -703,7 +682,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-3">
+                        <div class="col-lg-6 my-3">
                             <div class="card h-100 d-flex flex-column">
                                 <div class="card-body">
                                     <h5 class="card-title">Color Transition No Borders
@@ -734,7 +713,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-3">
+                        <div class="col-lg-6 my-3">
                             <div class="card h-100 d-flex flex-column">
                                 <div class="card-body">
                                     <h5 class="card-title">Active State
@@ -764,7 +743,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-3">
+                        <div class="col-lg-6 my-3">
                             <div class="card h-100 d-flex flex-column">
                                 <div class="card-body">
                                     <h5 class="card-title">Disabled State
@@ -794,7 +773,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-3">
+                        <div class="col-lg-6 my-3">
                             <div class="card h-100 d-flex flex-column">
                                 <div class="card-body">
                                     <h5 class="card-title">Block Level
@@ -810,7 +789,143 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-6 mb-3">
+                        <div class="col-lg-6 my-3">
+                            <div class="card sadowButton h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <button type="button"
+                                        class="btn btn-primary btn-primary-SW btn-rounded">Primary</button>
+                                    <button type="button"
+                                        class="btn btn-secondary btn-secondary-SW btn-rounded">Secondary</button>
+                                    <button type="button"
+                                        class="btn btn-success btn-success-SW btn-rounded">Success</button>
+                                    <button type="button"
+                                        class="btn btn-danger btn-danger-SW btn-rounded">Danger</button>
+                                    <button type="button"
+                                        class="btn btn-warning btn-warning-SW btn-rounded">Warning</button>
+                                    <button type="button" class="btn btn-info btn-info-SW btn-rounded">Info</button>
+                                    <button type="button" class="btn btn-light btn-ligh-SW btn-rounded">Light</button>
+                                    <button type="button" class="btn btn-dark btn-dark-SW btn-rounded">Dark</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 my-3">
+                            <div class="card sadowButton h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <button type="button"
+                                        class="btn btn-outline-primary btn-primary-SW btn-rounded">Primary</button>
+                                    <button type="button"
+                                        class="btn btn-outline-secondary btn-secondary-SW btn-rounded">Secondary</button>
+                                    <button type="button"
+                                        class="btn btn-outline-success btn-success-SW btn-rounded">Success</button>
+                                    <button type="button"
+                                        class="btn btn-outline-danger btn-danger-SW btn-rounded">Danger</button>
+                                    <button type="button"
+                                        class="btn btn-outline-warning btn-warning-SW btn-rounded">Warning</button>
+                                    <button type="button"
+                                        class="btn btn-outline-info btn-info-SW  btn-rounded">Info</button>
+                                    <button type="button"
+                                        class="btn btn-outline-light btn-ligh-SW btn-rounded">Light</button>
+                                    <button type="button"
+                                        class="btn btn-outline-dark btn-dark-SW btn-rounded">Dark</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 my-3">
+                            <div class="card socal-icon text-center h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <!-- Facebook -->
+                                    <a class="btn text-white" style="background-color: #3b5998;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <!-- Twitter -->
+                                    <a class="btn text-white" style="background-color: #55acee;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+
+                                    <!-- Google -->
+                                    <a class="btn text-white" style="background-color: #dd4b39;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+
+                                    <!-- Instagram -->
+                                    <a class="btn text-white" style="background-color: #ac2bac;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+
+                                    <!-- Linkedin -->
+                                    <a class="btn text-white" style="background-color: #0082ca;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+
+                                    <!-- Pinterest -->
+                                    <a class="btn text-white" style="background-color: #c61118;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-pinterest"></i>
+                                    </a>
+
+                                    <!-- Vkontakte -->
+                                    <a class="btn text-white" style="background-color: #4c75a3;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-vk"></i>
+                                    </a>
+
+                                    <!-- Stack overflow -->
+                                    <a class="btn text-white" style="background-color: #ffac44;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-stack-overflow"></i>
+                                    </a>
+
+                                    <!-- Youtube -->
+                                    <a class="btn text-white" style="background-color: #ed302f;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+
+                                    <!-- Slack -->
+                                    <a class="btn text-white" style="background-color: #481449;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-slack-hash"></i>
+                                    </a>
+
+                                    <!-- Github -->
+                                    <a class="btn text-white" style="background-color: #333333;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+
+                                    <!-- Dribbble -->
+                                    <a class="btn text-white" style="background-color: #ec4a89;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+
+                                    <!-- Reddit -->
+                                    <a class="btn text-white" style="background-color: #ff4500;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-reddit-alien"></i>
+                                    </a>
+
+                                    <!-- Whatsapp -->
+                                    <a class="btn text-white" style="background-color: #25d366;" href="#!"
+                                        role="button">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 my-3">
                             <div class="card h-100 d-flex flex-column">
                                 <div class="card-body">
                                     <h5 class="card-title">Checkbox Buttons
@@ -850,59 +965,39 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-3">
-                            <div class="card h-100 d-flex flex-column">
+                        <div class="col-lg-6 my-3">
+                            <div class="card radioButton h-100 d-flex flex-column">
                                 <div class="card-body">
                                     <h5 class="card-title">Radio Buttons
                                     </h5>
-                                    <div class="text-center">
-                                        <div role="group" class="btn-group-sm btn-group btn-group-toggle"
-                                            data-toggle="buttons">
-                                            <label class="btn btn-primary">
-                                                <input type="radio" name="options" id="option1" autocomplete="off"
-                                                    checked>
-                                                One
-                                            </label>
-                                            <label class="btn btn-primary">
-                                                <input type="radio" name="options" id="option2" autocomplete="off">
-                                                Two
-                                            </label>
-                                            <label class="btn btn-primary">
-                                                <input type="radio" name="options" id="option3" autocomplete="off">
-                                                Three
+
+                                    <div class="radiogroup">
+                                        <div class="wrapper">
+                                            <input class="state" type="radio" name="app" id="a" value="a">
+                                            <label class="label" for="a">
+                                                <div class="indicator"></div>
+                                                <span class="text">a) close</span>
                                             </label>
                                         </div>
-                                        <div class="divider">
-                                        </div>
-                                        <div role="group" class="btn-group btn-group-toggle" data-toggle="buttons">
-                                            <label class="btn btn-warning">
-                                                <input type="radio" name="options" id="option4" autocomplete="off">
-                                                One
-                                            </label>
-                                            <label class="btn btn-warning">
-                                                <input type="radio" name="options" id="option5" autocomplete="off">
-                                                Two
-                                            </label>
-                                            <label class="btn btn-warning">
-                                                <input type="radio" name="options" id="option6" autocomplete="off">
-                                                Three
+                                        <div class="wrapper">
+                                            <input class="state" type="radio" name="app" id="b" value="b">
+                                            <label class="label" for="b">
+                                                <div class="indicator"></div>
+                                                <span class="text">b) remove</span>
                                             </label>
                                         </div>
-                                        <div class="divider">
+                                        <div class="wrapper">
+                                            <input class="state" type="radio" name="app" id="c" value="c">
+                                            <label class="label" for="c">
+                                                <div class="indicator"></div>
+                                                <span class="text">c) delete</span>
+                                            </label>
                                         </div>
-                                        <div role="group" class="btn-group-lg btn-group btn-group-toggle"
-                                            data-toggle="buttons">
-                                            <label class="btn btn-focus">
-                                                <input type="radio" name="options" id="option7" autocomplete="off">
-                                                One
-                                            </label>
-                                            <label class="btn btn-focus">
-                                                <input type="radio" name="options" id="option8" autocomplete="off">
-                                                Two
-                                            </label>
-                                            <label class="btn btn-focus">
-                                                <input type="radio" name="options" id="option9" autocomplete="off">
-                                                Three
+                                        <div class="wrapper">
+                                            <input class="state" type="radio" name="app" id="d" value="d">
+                                            <label class="label" for="d">
+                                                <div class="indicator"></div>
+                                                <span class="text">d) all of the above</span>
                                             </label>
                                         </div>
                                     </div>
@@ -910,7 +1005,81 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 mb-3">
+                            <div class="card h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <h5 class="card-title">Checkbox Buttons
+                                    </h5>
+                                    <div class="radio-button-ex-container">
+                                        <ul class="radio-button-ex">
+                                            <li>
+                                                <input type="radio" id="f-option" name="selector">
+                                                <label for="f-option">Pizza</label>
+
+                                                <div class="check"></div>
+                                            </li>
+
+                                            <li>
+                                                <input type="radio" id="s-option" name="selector">
+                                                <label for="s-option">Bacon</label>
+
+                                                <div class="check">
+                                                    <div class="inside"></div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <input type="radio" id="t-option" name="selector">
+                                                <label for="t-option">Cats</label>
+
+                                                <div class="check">
+                                                    <div class="inside"></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card darkButtonContent h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <h5 class="card-title">Radio Buttons
+                                    </h5>
+                                    <div class="buttonDark">
+
+                                        <section class="dark">
+
+                                            <h1>Buttons (Dark)</h1>
+
+                                            <label>
+                                                <input type="radio" name="dark" checked>
+                                                <span class="design"></span>
+                                                <span class="text">Option 1</span>
+                                            </label>
+
+                                            <label>
+                                                <input type="radio" name="dark">
+                                                <span class="design"></span>
+                                                <span class="text">Option 2</span>
+                                            </label>
+
+                                            <label>
+                                                <input type="radio" name="dark">
+                                                <span class="design"></span>
+                                                <span class="text">Option 3</span>
+                                            </label>
+
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
 
                 <!-- ****Body-Section***** -->
 
@@ -935,7 +1104,6 @@
             </div>
         </div>
     </div>
-
 
     <script src="../assets/scripts/jquery-3.6.3.min.js"></script>
     <script src="../assets/scripts/bootstrap.bundle.min.js"></script>

@@ -10499,30 +10499,30 @@
                 t.stopPropagation();
             });
         },
-        "drag-thumb": function (e) {
-          L(e, [
-            "containerWidth",
-            "contentWidth",
-            "pageX",
-            "railXWidth",
-            "scrollbarX",
-            "scrollbarXWidth",
-            "scrollLeft",
-            "x",
-            "scrollbarXRail",
-          ]),
-            L(e, [
-              "containerHeight",
-              "contentHeight",
-              "pageY",
-              "railYHeight",
-              "scrollbarY",
-              "scrollbarYHeight",
-              "scrollTop",
-              "y",
-              "scrollbarYRail",
-            ]);
-        },
+        // "drag-thumb": function (e) {
+        //   L(e, [
+        //     "containerWidth",
+        //     "contentWidth",
+        //     "pageX",
+        //     "railXWidth",
+        //     "scrollbarX",
+        //     "scrollbarXWidth",
+        //     "scrollLeft",
+        //     "x",
+        //     "scrollbarXRail",
+        //   ]),
+        //     L(e, [
+        //       "containerHeight",
+        //       "contentHeight",
+        //       "pageY",
+        //       "railYHeight",
+        //       "scrollbarY",
+        //       "scrollbarYHeight",
+        //       "scrollTop",
+        //       "y",
+        //       "scrollbarYRail",
+        //     ]);
+        // },
         keyboard: function (e) {
           var t = e.element;
           e.event.bind(e.ownerDocument, "keydown", function (n) {
@@ -10971,7 +10971,7 @@
           }),
           (this.isAlive = !0),
           this.settings.handlers.forEach(function (e) {
-            return D[e](n);
+            // return D[e](n);
           }),
           (this.lastScrollTop = Math.floor(e.scrollTop)),
           (this.lastScrollLeft = e.scrollLeft),
@@ -24565,6 +24565,15 @@
     n(147), n(152), n(153), n(155), n(156), n(160), (e.exports = n(163));
   },
   function (e, t, n) {
+    
+    let container = document.getElementById('appContent')
+    if(container.clientWidth < 991 ){
+      container.classList.add("closed-sidebar")
+      container.classList.add("closed-sidebar-mobile")
+    }else{
+      container.classList.remove("closed-sidebar")
+      container.classList.remove("closed-sidebar-mobile")
+    }
     "use strict";
     n.r(t);
     var i = n(1),
@@ -41847,11 +41856,11 @@
         ) {
           (this.scale = e),
             (this.transX = t),
-            (this.transY = n),
-            this.rootElement.node.setAttribute(
-              "transform",
-              "scale(" + e + ") translate(" + t + ", " + n + ")"
-            );
+            (this.transY = n)
+            // this.rootElement.node.setAttribute(
+            //    "transform",
+            //    "scale(" + e + ") translate(" + t + ", " + n + ")"
+            // );
         }),
         (d.SVGShapeElement = function (e, t) {
           d.SVGShapeElement.parentClass.call(this, e, t),
