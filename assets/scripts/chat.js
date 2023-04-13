@@ -56,3 +56,4 @@ const polarAreaChart = new Chart(polarArea, {
     ],
   },
 });
+

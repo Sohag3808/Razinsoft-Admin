@@ -335,10 +335,15 @@
 }
 
 @media (max-width: 991.98px) {
-
     .app-page-title .page-title-icon,
     .ui-theme-settings {
         display: none
+    }
+    .fixed-header .profile-content span{
+        display: none !important;
+    }
+    .fixed-sidebar .profile-content{
+        display: block;
     }
 
     .card-header.responsive-center {
@@ -546,18 +551,14 @@
     }
 }
 
-@media (min-width: 1024px) {
-    .login-section .card {
-        width: 450px;
-        margin: 0;
-    }
+@media (max-width: 580px) {
 
-    .login-section {
-        width: 100%;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .login-section{
+        display: block;
+        padding-top: 40px;
     }
+    .login-section .card {      
+        margin: auto;
+      }
+
 }

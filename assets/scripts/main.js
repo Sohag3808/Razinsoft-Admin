@@ -10331,7 +10331,8 @@
             (d(t, u.element.rail("y")).forEach(function (e) {
               return s(e);
             }),
-            t.appendChild(e.scrollbarYRail)),
+            t.appendChild(e.scrollbarYRail)
+            ),
           !e.settings.suppressScrollX &&
           e.containerWidth + e.settings.scrollXMarginOffset < e.contentWidth
             ? ((e.scrollbarXActive = !0),
@@ -10898,8 +10899,8 @@
           (this.event = new g()),
           (this.ownerDocument = e.ownerDocument || document),
           (this.scrollbarXRail = a(u.element.rail("x"))),
-          e.appendChild(this.scrollbarXRail),
-          (this.scrollbarX = a(u.element.thumb("x"))),
+          // e.appendChild(this.scrollbarXRail),
+          // (this.scrollbarX = a(u.element.thumb("x"))),
           this.scrollbarXRail.appendChild(this.scrollbarX),
           this.scrollbarX.setAttribute("tabindex", 0),
           this.event.bind(this.scrollbarX, "focus", d),
@@ -10921,8 +10922,8 @@
           (this.railXWidth = null),
           (this.railXRatio = null),
           (this.scrollbarYRail = a(u.element.rail("y"))),
-          e.appendChild(this.scrollbarYRail),
-          (this.scrollbarY = a(u.element.thumb("y"))),
+          // e.appendChild(this.scrollbarYRail),
+          // (this.scrollbarY = a(u.element.thumb("y"))),
           this.scrollbarYRail.appendChild(this.scrollbarY),
           this.scrollbarY.setAttribute("tabindex", 0),
           this.event.bind(this.scrollbarY, "focus", d),

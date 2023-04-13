@@ -16,6 +16,9 @@
     <meta name="mlapplication-tap-highlight" content="no">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/apexcharts.css">
+    <link rel="stylesheet" href="assets/css/datatables.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -64,6 +67,240 @@
                     </div>
                 </div>
                 <div class="app-header-right">
+                    <div class="badgeButtonBox">
+                        <div class="emailIcon">
+                            <button type="button" class="emailBadge position-relative  dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-envelope gmail"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    10
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </button>
+                            <div class="dropdown-menu p-0 auto emailMessege-section">
+                                <div class="dropdown-item emailNotifaction">
+                                    <div class="emailHeader">
+                                        <h6 class="massTitel">Message</h6>
+                                        <span class="massPera">Marks all as read</span>
+                                    </div>
+                                    <div class="messege-section">
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/avatar-07.jpeg" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/avata.jpg" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Althea Cabardo </h5>
+                                                    <span class="massPera">17 sce ago</span>
+                                                </div>
+                                                <div class="messTime">
+                                                    <p class="massPera">Many desktop publishing packages</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/avatar-09.jpg" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Oscar Garner </h5>
+                                                    <span class="massPera">8 min ago</span>
+                                                </div>
+                                                <div class="messTime">
+                                                    <p class="massPera">Various versions have evolved over</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/Profile.jpg" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Katherine Pechon </h5>
+                                                    <span class="massPera">15 min ago</span>
+                                                </div>
+                                                <div class="messTime">
+                                                    <p class="massPera">Making this the first true generator</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/avata03.png" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Amelia Doe </h5>
+                                                    <span class="massPera">25 min ago</span>
+                                                </div>
+                                                <div class="messTime">
+                                                    <p class="massPera">Duis aute irure dolor in reprehenderit </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/avatar-08.png" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Cristina Jhons</h5>
+                                                    <span class="massPera">2 hrs ago</span>
+                                                </div>
+                                                <div class="messTime">
+                                                    <p class="massPera">The passage is attributed to an unknown</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="emailFooter">
+                                        <span class="massPera">View All Messages</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="notifactionIcon  me-4">
+                            <button type="button" class="emailBadge dropdown-toggle position-relative"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell noti"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    7
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </button>
+                            <div class="dropdown-menu p-0 emailNotifactionSection">
+                                <div class="dropdown-item emailNotifaction">
+                                    <div class="emailHeader">
+                                        <h6 class="massTitel">Notification</h6>
+                                        <span class="massPera">Marks all as read</span>
+                                    </div>
+                                    <div class="messege-section">
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox userIcon">
+                                                <i class="bi bi-people"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox cardIcon">
+                                                <i class="bi bi-cart3"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox pdfIcon">
+                                                <i class="bi bi-filetype-pdf"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox sendIcon">
+                                                <i class="bi bi-send"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox homeIcon">
+                                                <i class="bi bi-house-heart"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox massegeIcon">
+                                                <i class="bi bi-chat-dots"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="emailFooter">
+                                        <span class="massPera">View All Notification</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="user-profile-box dropdown">
                         <div class="nav-profile-box dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             <div class="profile-image">
@@ -76,14 +313,12 @@
                         </div>
 
                         <div class="dropdown-menu profile-item">
-
-                            <a href="#" class="dropdown-item"><i class="fa-solid fa-user me-2"></i>User
-                                Account
-                            </a>
                             <a href="#" class="dropdown-item"><i class="fa-solid fa-gear me-2"></i>Settings</a>
-                            <a href="#" class="dropdown-item"><i class="fa-solid fa-gear me-2"></i>Profile</a>
-                            <a href="#" class="dropdown-item"><i class="fa-solid fa-key me-2"></i>Change Password</a>
-                            <a href="#" class="dropdown-item"><i
+                            <a href="profile.html" class="dropdown-item"><i
+                                    class="fa-solid fa-gear me-2"></i>Profile</a>
+                            <a href="changepassword.html" class="dropdown-item"><i
+                                    class="fa-solid fa-key me-2"></i>Change Password</a>
+                            <a href="login.html" class="dropdown-item"><i
                                     class="fa-solid fa-right-from-bracket me-2"></i>Logout</a>
                         </div>
 
@@ -146,9 +381,7 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
                         </div>
 
@@ -266,8 +499,8 @@
                 </div>
             </div>
         </div>
+        <!-- ========Sidebar-Menu-Section========= -->
         <div class="app-main">
-            <!-- ========Sidebar-Menu-Section========= -->
             <div class="app-sidebar sidebar-shadow">
                 <div class="scrollbar-sidebar pb-3">
                     <div class="branding-logo">
@@ -283,15 +516,37 @@
                             </div>
                             <div class="profile-content">
                                 <h2 class="nameSize">Md Sohag Sheke</h2>
-                                <p class="paraSize">sohag.@gmail.com</p>
+                                <p class="paraSize">sohag.razinsoft.@gmail.com</p>
                             </div>
                         </div>
                         <ul class="vertical-nav-menu">
                             <li>
                                 <a href="index.html" class="mm-active">
-                                    <i class="fa-solid fa-gauge menu-icon"></i>
+                                    <i class="fa-solid fa-house-user menu-icon"></i>
                                     Dashboard
+                                    <i class="fa fa-angle-down menu-state-icon"></i>
                                 </a>
+                                <ul>
+
+                                    <li class="sub-menu">
+                                        <a href="index.html">
+                                            <i class="fa-solid fa-gauge mr-1"></i>
+                                            Dashbord-01
+                                        </a>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="dashbord-2.html">
+                                            <i class="fa-solid fa-gauge mr-1"></i>
+                                            Dashbord-02
+                                        </a>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="dashbord-3.html">
+                                            <i class="fa-solid fa-gauge mr-1"></i>
+                                            Dashbord-03
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
 
                             <li>
@@ -338,12 +593,6 @@
                                             Navigation Menus
                                         </a>
                                     </li>
-                                    <li class="sub-menu">
-                                        <a href="elements/utilities.html">
-                                            <i class="fa-solid fa-wrench mr-1"></i>
-                                            Utilities
-                                        </a>
-                                    </li>
                                 </ul>
                             </li>
 
@@ -368,9 +617,9 @@
                                         </a>
                                     </li>
                                     <li class="sub-menu">
-                                        <a href="components/notifications.html">
+                                        <a href="components/toaster.html">
                                             <i class="fa-regular fa-bell mr-1"></i>
-                                            Notifications
+                                            Toaster
                                         </a>
                                     </li>
 
@@ -426,6 +675,13 @@
                                         <a href="components/maps.html">
                                             <i class="fa-solid fa-location-dot mr-1"></i>
                                             Maps
+                                        </a>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="components/icon.html">
+                                            <i><img src="assets/images/R_mini-logo.png"
+                                                    style="width: 18px;filter: grayscale(100%);" alt=""></i>
+                                            Icon
                                         </a>
                                     </li>
                                 </ul>
@@ -506,13 +762,14 @@
                                 </div>
                             </div>
                             <div class="page-title-actions">
-                                <button type="button" data-toggle="tooltip" title="Example Tooltip"
-                                    data-placement="bottom" class="btn-shadow me-3 btn btn-dark">
+                                <button type="button" data-bs-toggle="tooltip" title="Example Tooltip"
+                                    data-bs-placement="bottom" data-bs-title="Tooltip on bottom"
+                                    class="btn-shadow mr-3 btn btn-dark">
                                     <i class="fa fa-star"></i>
                                 </button>
                                 <div class="d-inline-block dropdown">
                                     <button type="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                                        aria-expanded="false" class="btn-shadow dropdown-toggle bgBlue btn btn-dipBlue">
                                         <span class="btn-icon-wrapper pr-2 opacity-7">
                                             <i class="fa fa-business-time fa-w-20"></i>
                                         </span>
@@ -562,757 +819,946 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-xl-4">
-                            <div class="card mb-3 widget-content bg-midnight-bloom">
-                                <div class="widget-content-wrapper text-white">
-                                    <div class="widget-content-left">
-                                        <div class="widget-heading">Total Orders</div>
-                                        <div class="widget-subheading">Last year expenses</div>
-                                    </div>
-                                    <div class="widget-content-right">
-                                        <div class="widget-numbers text-white"><span>1896</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-4">
-                            <div class="card mb-3 widget-content bg-arielle-smile">
-                                <div class="widget-content-wrapper text-white">
-                                    <div class="widget-content-left">
-                                        <div class="widget-heading">Clients</div>
-                                        <div class="widget-subheading">Total Clients Profit</div>
-                                    </div>
-                                    <div class="widget-content-right">
-                                        <div class="widget-numbers text-white"><span>$ 568</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-4">
-                            <div class="card mb-3 widget-content bg-grow-early">
-                                <div class="widget-content-wrapper text-white">
-                                    <div class="widget-content-left">
-                                        <div class="widget-heading">Followers</div>
-                                        <div class="widget-subheading">People Interested</div>
-                                    </div>
-                                    <div class="widget-content-right">
-                                        <div class="widget-numbers text-white"><span>46%</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-xl-none d-lg-block col-md-6 col-xl-4">
-                            <div class="card mb-3 widget-content bg-premium-dark">
-                                <div class="widget-content-wrapper text-white">
-                                    <div class="widget-content-left">
-                                        <div class="widget-heading">Products Sold</div>
-                                        <div class="widget-subheading">Revenue streaml</div>
-                                    </div>
-                                    <div class="widget-content-right">
-                                        <div class="widget-numbers text-warning"><span>$14M</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-12 col-lg-6 mb-4">
-                            <div class="card d-flex h-100 flex-column">
-                                <div class="card-header-tab card-header-tab-animation card-header">
-                                    <div class="card-header-title">
-                                        Sales Report
-                                    </div>
-                                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link active FontColor" id="pills-home-tab"
-                                                data-bs-toggle="pill" data-bs-target="#pills-home" role="tab"
-                                                aria-controls="pills-home" aria-selected="true">Last</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link FontColor" id="pills-profile-tab"
-                                                data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
-                                                role="tab" aria-controls="pills-profile"
-                                                aria-selected="false">Current</button>
-                                        </li>
-                                    </ul>
-
-                                </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card h-100 d-flex flex-column">
                                 <div class="card-body">
-                                    <div class="tab-content" id="pills-tabContent">
-                                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                            aria-labelledby="pills-home-tab">
-                                            <div class="card mb-3 widget-chart widget-chart2 text-left w-100">
-                                                <div class="widget-chat-wrapper-outer">
-                                                    <div
-                                                        class="widget-chart-wrapper widget-chart-wrapper-lg opacity-10 m-0">
-                                                        <canvas id="canvas"></canvas>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <h6
-                                                class="text-muted text-uppercase font-size-md opacity-5 font-weight-normal">
-                                                Top Authors</h6>
-                                            <div class="scroll-area-sm">
-                                                <div class="scrollbar-container">
-                                                    <ul
-                                                        class="rm-list-borders rm-list-borders-scroll list-group list-group-flush">
-                                                        <li class="list-group-item">
-                                                            <div class="widget-content p-0">
-                                                                <div class="widget-content-wrapper">
-                                                                    <div class="widget-content-left me-3">
-                                                                        <img width="42" class="rounded-circle"
-                                                                            src="assets/images/avatars/9.jpg" alt="">
-                                                                    </div>
-                                                                    <div class="widget-content-left">
-                                                                        <div class="widget-heading">Ella-Rose Henry
-                                                                        </div>
-                                                                        <div class="widget-subheading">Web Developer
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="widget-content-right">
-                                                                        <div class="font-size-xlg text-muted">
-                                                                            <small class="opacity-5 pr-1">$</small>
-                                                                            <span>129</span>
-                                                                            <small class="text-danger pl-2">
-                                                                                <i class="fa fa-angle-down"></i>
-                                                                            </small>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                            <div class="widget-content p-0">
-                                                                <div class="widget-content-wrapper">
-                                                                    <div class="widget-content-left me-3">
-                                                                        <img width="42" class="rounded-circle"
-                                                                            src="assets/images/avatars/5.jpg" alt="">
-                                                                    </div>
-                                                                    <div class="widget-content-left">
-                                                                        <div class="widget-heading">Ruben Tillman</div>
-                                                                        <div class="widget-subheading">UI Designer</div>
-                                                                    </div>
-                                                                    <div class="widget-content-right">
-                                                                        <div class="font-size-xlg text-muted">
-                                                                            <small class="opacity-5 pr-1">$</small>
-                                                                            <span>54</span>
-                                                                            <small class="text-success pl-2">
-                                                                                <i class="fa fa-angle-up"></i>
-                                                                            </small>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                            <div class="widget-content p-0">
-                                                                <div class="widget-content-wrapper">
-                                                                    <div class="widget-content-left me-3">
-                                                                        <img width="42" class="rounded-circle"
-                                                                            src="assets/images/avatars/4.jpg" alt="">
-                                                                    </div>
-                                                                    <div class="widget-content-left">
-                                                                        <div class="widget-heading">Vinnie Wagstaff
-                                                                        </div>
-                                                                        <div class="widget-subheading">Java Programmer
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="widget-content-right">
-                                                                        <div class="font-size-xlg text-muted">
-                                                                            <small class="opacity-5 pr-1">$</small>
-                                                                            <span>429</span>
-                                                                            <small class="text-warning pl-2">
-                                                                                <i class="fa fa-dot-circle"></i>
-                                                                            </small>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                            <div class="widget-content p-0">
-                                                                <div class="widget-content-wrapper">
-                                                                    <div class="widget-content-left me-3">
-                                                                        <img width="42" class="rounded-circle"
-                                                                            src="assets/images/avatars/3.jpg" alt="">
-                                                                    </div>
-                                                                    <div class="widget-content-left">
-                                                                        <div class="widget-heading">Ella-Rose Henry
-                                                                        </div>
-                                                                        <div class="widget-subheading">Web Developer
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="widget-content-right">
-                                                                        <div class="font-size-xlg text-muted">
-                                                                            <small class="opacity-5 pr-1">$</small>
-                                                                            <span>129</span>
-                                                                            <small class="text-danger pl-2">
-                                                                                <i class="fa fa-angle-down"></i>
-                                                                            </small>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                            <div class="widget-content p-0">
-                                                                <div class="widget-content-wrapper">
-                                                                    <div class="widget-content-left me-3">
-                                                                        <img width="42" class="rounded-circle"
-                                                                            src="assets/images/avatars/2.jpg" alt="">
-                                                                    </div>
-                                                                    <div class="widget-content-left">
-                                                                        <div class="widget-heading">Ruben Tillman</div>
-                                                                        <div class="widget-subheading">UI Designer</div>
-                                                                    </div>
-                                                                    <div class="widget-content-right">
-                                                                        <div class="font-size-xlg text-muted">
-                                                                            <small class="opacity-5 pr-1">$</small>
-                                                                            <span>54</span>
-                                                                            <small class="text-success pl-2">
-                                                                                <i class="fa fa-angle-up"></i>
-                                                                            </small>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                    <h5 class="card-title chartTitle">Revenue</h5>
+                                    <div class="header-Box revenueChart">
+                                        <div class="headerBox-content">
+                                            <h4>$4805</h4>
+                                            <p class="revenuePara"><i class="bi bi-caret-up-fill pe-1"></i>$34 Since
+                                                last week</p>
                                         </div>
-                                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                                            aria-labelledby="pills-profile-tab">
-                                            <canvas id="myChart" width="400" height="250"></canvas>
+                                        <div class="headerBox-icon">
+                                            <i class="fa-solid fa-file fileIcon"></i>
                                         </div>
-
                                     </div>
-
+                                    <div id="revenueChart"></div>
                                 </div>
-                                <!-- </div> -->
                             </div>
                         </div>
-                        <div class="col-md-12 col-lg-6 mb-4">
-                            <div class="card d-flex h-100 flex-column">
-                                <div class="card-header-tab card-header">
-                                    <div class="card-header-title">
-                                        <i class="header-icon lnr-rocket icon-gradient bg-tempting-azure"> </i>
-                                        Bandwidth Reports
-                                    </div>
-                                    <div class="btn-actions-pane-right">
-                                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                                            <li class="nav-item" role="presentation">
-                                                <button class="nav-link active" id="pills-One-tab" data-bs-toggle="pill"
-                                                    data-bs-target="#pills-One" type="button" role="tab"
-                                                    aria-controls="pills-One" aria-selected="true">Home</button>
-                                            </li>
-                                            <li class="nav-item" role="presentation">
-                                                <button class="nav-link" id="pills-Two-tab" data-bs-toggle="pill"
-                                                    data-bs-target="#pills-Two" type="button" role="tab"
-                                                    aria-controls="pills-Two" aria-selected="false">Profile</button>
-                                            </li>
-                                        </ul>
 
+                        <div class="col-md-4 mb-3">
+                            <div class="card h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <h5 class="card-title chartTitle">Total Customers</h5>
+                                    <div class="header-Box totalCustomers">
+                                        <div class="headerBox-content ">
+                                            <h4>8.4K</h4>
+                                            <p class="totalcuPara"><i class="bi bi-caret-up-fill pe-1"></i>14% Since
+                                                last week</p>
+                                        </div>
+                                        <div class="headerBox-icon">
+                                            <i class="fa-solid fa-file fileIcon"></i>
+                                        </div>
                                     </div>
+                                    <div id="totalCustomers"></div>
                                 </div>
-                                <div class="tab-content">
-                                    <div class="tab-pane fade show active" id="pills-One" role="tabpanel"
-                                        aria-labelledby="pills-One-tab">
-                                        <div class="widget-chart p-3">
-                                            <div style="height: 350px">
-                                                <canvas id="line-chart"></canvas>
-                                            </div>
-                                            <div class="widget-chart-content text-center mt-5">
-                                                <div class="widget-description mt-0 text-warning">
-                                                    <i class="fa fa-arrow-left"></i>
-                                                    <span class="pl-1">175.5%</span>
-                                                    <span class="text-muted opacity-8 pl-1">increased server
-                                                        resources</span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <div class="card h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <h5 class="card-title chartTitle">Store Visitors</h5>
+                                    <div class="header-Box storeVisitors">
+                                        <div class="headerBox-content">
+                                            <h4>59K</h4>
+                                            <p class="storeviPara"><i class="bi bi-caret-up-fill pe-1"></i>12.4% Since
+                                                last week</p>
+                                        </div>
+                                        <div class="headerBox-icon">
+                                            <i class="fa-solid fa-file fileIcon"></i>
+                                        </div>
+                                    </div>
+                                    <div id="storeVisitors"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="card h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <h5 class="card-title chartTitle">Store Metrics</h5>
+                                    <p class="lastAll"><i class="bi bi-calendar-date pe-1"></i>in last 30 days revenue
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="header-Box revenueChart pt-2 pb-4">
+                                                <div class="headerBox-content">
+                                                    <h4>$4805</h4>
+                                                    <p class="revenuePara"><i class="bi bi-caret-up-fill pe-1"></i>$34
+                                                        Since last week</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="pt-2 card-body">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="widget-content">
-                                                        <div class="widget-content-outer">
-                                                            <div class="widget-content-wrapper">
-                                                                <div class="widget-content-left">
-                                                                    <div class="widget-numbers fsize-3 text-muted">63%
-                                                                    </div>
-                                                                </div>
-                                                                <div class="widget-content-right">
-                                                                    <div class="text-muted opacity-6">Generated Leads
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="widget-progress-wrapper mt-1">
-                                                                <div
-                                                                    class="progress-bar-sm progress-bar-animated-alt progress">
-                                                                    <div class="progress-bar bg-danger"
-                                                                        role="progressbar" aria-valuenow="63"
-                                                                        aria-valuemin="0" aria-valuemax="100"
-                                                                        style="width: 63%;"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                        <div class="col-md-4">
+                                            <div class="header-Box totalCustomers pt-2 pb-4">
+                                                <div class="headerBox-content ">
+                                                    <h4>8.4K</h4>
+                                                    <p class="totalcuPara"><i class="bi bi-caret-up-fill pe-1"></i>14%
+                                                        Since last week</p>
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <div class="widget-content">
-                                                        <div class="widget-content-outer">
-                                                            <div class="widget-content-wrapper">
-                                                                <div class="widget-content-left">
-                                                                    <div class="widget-numbers fsize-3 text-muted">32%
-                                                                    </div>
-                                                                </div>
-                                                                <div class="widget-content-right">
-                                                                    <div class="text-muted opacity-6">Submitted Tickers
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="widget-progress-wrapper mt-1">
-                                                                <div
-                                                                    class="progress-bar-sm progress-bar-animated-alt progress">
-                                                                    <div class="progress-bar bg-success"
-                                                                        role="progressbar" aria-valuenow="32"
-                                                                        aria-valuemin="0" aria-valuemax="100"
-                                                                        style="width: 32%;"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="widget-content">
-                                                        <div class="widget-content-outer">
-                                                            <div class="widget-content-wrapper">
-                                                                <div class="widget-content-left">
-                                                                    <div class="widget-numbers fsize-3 text-muted">71%
-                                                                    </div>
-                                                                </div>
-                                                                <div class="widget-content-right">
-                                                                    <div class="text-muted opacity-6">Server Allocation
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="widget-progress-wrapper mt-1">
-                                                                <div
-                                                                    class="progress-bar-sm progress-bar-animated-alt progress">
-                                                                    <div class="progress-bar bg-primary"
-                                                                        role="progressbar" aria-valuenow="71"
-                                                                        aria-valuemin="0" aria-valuemax="100"
-                                                                        style="width: 71%;"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="widget-content">
-                                                        <div class="widget-content-outer">
-                                                            <div class="widget-content-wrapper">
-                                                                <div class="widget-content-left">
-                                                                    <div class="widget-numbers fsize-3 text-muted">41%
-                                                                    </div>
-                                                                </div>
-                                                                <div class="widget-content-right">
-                                                                    <div class="text-muted opacity-6">Generated Leads
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="widget-progress-wrapper mt-1">
-                                                                <div
-                                                                    class="progress-bar-sm progress-bar-animated-alt progress">
-                                                                    <div class="progress-bar bg-warning"
-                                                                        role="progressbar" aria-valuenow="41"
-                                                                        aria-valuemin="0" aria-valuemax="100"
-                                                                        style="width: 41%;"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="header-Box storeVisitors pt-2 pb-4">
+                                                <div class="headerBox-content">
+                                                    <h4>59K</h4>
+                                                    <p class="storeviPara"><i class="bi bi-caret-up-fill pe-1"></i>12.4%
+                                                        Since last week</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade mt-2" id="pills-Two" role="tabpanel"
-                                        aria-labelledby="pills-Two-tab">
-                                        <canvas id="polarAreaChart" width="400" height="250"></canvas>
+                                    <div id="lastmonthRevenue"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <h5 class="card-title chartTitle">Top Products</h5>
+                                    <p class="lastAll"><i class="bi bi-calendar-date pe-1"></i>in last 30 days revenue
+                                    </p>
+                                    <div class="product-section mt-4">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="product-content">
+                                                    <div class="products-image">
+                                                        <img src="assets/images/products/chair.png" alt="">
+                                                    </div>
+                                                    <div class="product-pera">
+                                                        <h5 class="priceTitle">Light Blue Chair</h5>
+                                                        <p class="priceDis">$240.00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="productPrice">
+                                                    <div class="productText">
+                                                        <h5 class="priceTitle">$2140.00</h5>
+                                                        <p class="priceDis">345 Sales</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="ShortChart">
+                                                    <div id="shortChart"></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+
+                                    <div class="product-section mt-4">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="product-content">
+                                                    <div class="products-image">
+                                                        <img src="assets/images/products/user-interface.png" alt="">
+                                                    </div>
+                                                    <div class="product-pera">
+                                                        <h5 class="priceTitle">Honor Mobile 7x</h5>
+                                                        <p class="priceDis">$159.00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="productPrice">
+                                                    <div class="productText">
+                                                        <h5 class="priceTitle">$3570.00</h5>
+                                                        <p class="priceDis">148 Sales</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="ShortChart">
+                                                    <div id="shortChart2"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-section mt-4">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="product-content">
+                                                    <div class="products-image">
+                                                        <img src="assets/images/products/idea.png" alt="">
+                                                    </div>
+                                                    <div class="product-pera">
+                                                        <h5 class="priceTitle">Mini Laptop</h5>
+                                                        <p class="priceDis">$260.00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="productPrice">
+                                                    <div class="productText">
+                                                        <h5 class="priceTitle">$6320.00</h5>
+                                                        <p class="priceDis">452 Sales</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="ShortChart">
+                                                    <div id="shortChart3"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-xl-4">
-                            <div class="card mb-3 widget-content">
-                                <div class="widget-content-outer">
-                                    <div class="widget-content-wrapper">
-                                        <div class="widget-content-left">
-                                            <div class="widget-heading">Total Orders</div>
-                                            <div class="widget-subheading">Last year expenses</div>
-                                        </div>
-                                        <div class="widget-content-right">
-                                            <div class="widget-numbers text-success">1896</div>
-                                        </div>
+                        <div class="col-md-8 mb-3">
+                            <div class="card h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <div class="cardTitleBox">
+                                        <h5 class="card-title chartTitle">Transaction History</h5>
+                                        <p class="lastAll"><i class="bi bi-calendar-date pe-1"></i>in last 30 days
+                                            revenue
+                                        </p>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-4">
-                            <div class="card mb-3 widget-content">
-                                <div class="widget-content-outer">
-                                    <div class="widget-content-wrapper">
-                                        <div class="widget-content-left">
-                                            <div class="widget-heading">Products Sold</div>
-                                            <div class="widget-subheading">Revenue streaml</div>
-                                        </div>
-                                        <div class="widget-content-right">
-                                            <div class="widget-numbers text-warning">$3M</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-4">
-                            <div class="card mb-3 widget-content">
-                                <div class="widget-content-outer">
-                                    <div class="widget-content-wrapper">
-                                        <div class="widget-content-left">
-                                            <div class="widget-heading">Followers</div>
-                                            <div class="widget-subheading">People Interested</div>
-                                        </div>
-                                        <div class="widget-content-right">
-                                            <div class="widget-numbers text-danger">45,9%</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-xl-none d-lg-block col-md-6 col-xl-4">
-                            <div class="card mb-3 widget-content">
-                                <div class="widget-content-outer">
-                                    <div class="widget-content-wrapper">
-                                        <div class="widget-content-left">
-                                            <div class="widget-heading">Income</div>
-                                            <div class="widget-subheading">Expected totals</div>
-                                        </div>
-                                        <div class="widget-content-right">
-                                            <div class="widget-numbers text-focus">$147</div>
-                                        </div>
-                                    </div>
-                                    <div class="widget-progress-wrapper">
-                                        <div class="progress-bar-sm progress-bar-animated-alt progress">
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="54"
-                                                aria-valuemin="0" aria-valuemax="100" style="width: 54%;"></div>
-                                        </div>
-                                        <div class="progress-sub-label">
-                                            <div class="sub-label-left">Expenses</div>
-                                            <div class="sub-label-right">100%</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" id="deleteTableItem">
-                        <div class="col-md-12">
-                            <div class="main-card mb-3 card">
-                                <div class="card-header">Active Users
-                                    <div class="btn-actions-pane-right">
-                                        <div role="group" class="btn-group-sm btn-group">
-                                            <button class="active btn btn-focus">Last Week</button>
-                                            <button class="btn btn-focus">All Month</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="table-responsive">
-                                    <table class="align-middle mb-0 table table-borderless table-striped table-hover">
+                                    <table id="dataTable" class="mb-0 table">
                                         <thead>
                                             <tr>
-                                                <th class="text-center">#</th>
-                                                <th>Name</th>
-                                                <th class="text-center">City</th>
-                                                <th class="text-center">Status</th>
-                                                <th class="text-center">Actions</th>
+                                                <th>Payment Name</th>
+                                                <th>Date & Time</th>
+                                                <th>Amount</th>
+                                                <th>Status</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="text-center text-muted">#345</td>
-                                                <td>
-                                                    <div class="widget-content p-0">
-                                                        <div class="widget-content-wrapper">
-                                                            <div class="widget-content-left me-3">
-                                                                <div class="widget-content-left">
-                                                                    <img width="40" class="rounded-circle"
-                                                                        src="assets/images/avatars/4.jpg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="widget-content-left flex2">
-                                                                <div class="widget-heading">John Doe</div>
-                                                                <div class="widget-subheading opacity-7">Web Developer
-                                                                </div>
-                                                            </div>
+                                                <th>
+                                                    <div class="payment-section">
+                                                        <div class="payment-image">
+                                                            <img src="assets/images/avatars/avata01.png" alt="">
+                                                        </div>
+                                                        <div class="product-pera">
+                                                            <h5 class="paymentTitle">Payment from David Buckley</h5>
+                                                            <p class="paymentDis">Refrence Id #7865986</p>
                                                         </div>
                                                     </div>
-                                                </td>
-                                                <td class="text-center">Madrid</td>
-                                                <td class="text-center">
-                                                    <div class="badge textColor">Pending</div>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button type="button" id="PopoverCustomT-1"
-                                                        class="btn btn-primary btn-sm" data-bs-toggle="modal"
-                                                        data-bs-target="#exampleModal">Details</button>
+                                                </th>
+                                                <td> <span class="paymentDis">Jan 16, 2021</span></td>
+                                                <td> <span class="paymentDis">+876.00</span></td>
+                                                <td style="width: 150px;">
+                                                    <div class="progress" role="progressbar" aria-label="Danger example"
+                                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar bg-danger" style="width: 100%">Declined
+                                                        </div>
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td class="text-center text-muted">#347</td>
-                                                <td>
-                                                    <div class="widget-content p-0">
-                                                        <div class="widget-content-wrapper">
-                                                            <div class="widget-content-left me-3">
-                                                                <div class="widget-content-left">
-                                                                    <img width="40" class="rounded-circle"
-                                                                        src="assets/images/avatars/3.jpg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="widget-content-left flex2">
-                                                                <div class="widget-heading">Ruben Tillman</div>
-                                                                <div class="widget-subheading opacity-7">Etiam sit amet
-                                                                    orci eget</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text-center">Berlin</td>
-                                                <td class="text-center">
-                                                    <div class="badge textColor">Completed</div>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button type="button" id="PopoverCustomT-2"
-                                                        class="btn btn-primary btn-sm" data-bs-toggle="modal"
-                                                        data-bs-target="#exampleModal">Details</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center text-muted">#321</td>
-                                                <td>
-                                                    <div class="widget-content p-0">
-                                                        <div class="widget-content-wrapper">
-                                                            <div class="widget-content-left me-3">
-                                                                <div class="widget-content-left">
-                                                                    <img width="40" class="rounded-circle"
-                                                                        src="assets/images/avatars/2.jpg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="widget-content-left flex2">
-                                                                <div class="widget-heading">Elliot Huber</div>
-                                                                <div class="widget-subheading opacity-7">Lorem ipsum
-                                                                    dolor sic</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text-center">London</td>
-                                                <td class="text-center">
-                                                    <div class="badge textColor">In Progress</div>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button type="button" id="PopoverCustomT-3"
-                                                        class="btn btn-primary btn-sm" data-bs-toggle="modal"
-                                                        data-bs-target="#exampleModal">Details</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center text-muted">#55</td>
-                                                <td>
-                                                    <div class="widget-content p-0">
-                                                        <div class="widget-content-wrapper">
-                                                            <div class="widget-content-left me-3">
-                                                                <div class="widget-content-left">
-                                                                    <img width="40" class="rounded-circle"
-                                                                        src="assets/images/avatars/1.jpg" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="widget-content-left flex2">
-                                                                <div class="widget-heading">Vinnie Wagstaff</div>
-                                                                <div class="widget-subheading opacity-7">UI Designer
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text-center">Amlterdam</td>
-                                                <td class="text-center">
-                                                    <div class="badge textColor">On Hold</div>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button type="button" id="PopoverCustomT-4"
-                                                        class="btn btn-primary btn-sm" data-bs-toggle="modal"
-                                                        data-bs-target="#exampleModal" >Details</button>
-                                                </td>                                                              
-                                            </tr>                              
-                                        </tbody>                                                                   
-                                    </table>  
-                                    
-                                    <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1"
-          aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                  <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">User Details</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal"
-                          aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                      <div class="row">
-                        <div class="col-lg-4">                                                       
-                              <div class="profilePic">
-                                <img src="assets/images/avatars/Profile.jpg" alt="" width="100%">
-                              </div>                            
-                        </div>
-                        <div class="col-lg-8 ">
-                            <h3 class="text-center text-lg-start">Ashneer Grover</h3>
-                            <p>Founder - BharatPe</p>
-                            <div class="row">
-                                <div class="col-5 col-lg-4 p-0">
-                                    <div class="userInfo">
-                                        <p><strong>Country</strong><span>:</span></p>
-                                        <p><strong>Education</strong><span>:</span></p>
-                                        <p><strong>Website</strong><span>:</span></p>
-                                        <p><strong>Date Of Birth</strong><span>:</span></p>
-                                        <p><strong>Email</strong><span>:</span></p>
-                                        <p><strong>Mobile Number</strong><span>:</span></p>
-                                    </div>
-                                </div>              
-                                <div class="col-7 col-lg-8">
-                                    <div class="userDetails d-flex flex-column">
-                                        <p><span>Bangladesh</span></p>
-                                        <p><span>University</span></p>
-                                        <p><span>www.bharappe.com</span></p>
-                                        <p><span>02-Feb-1990</span></p>
-                                        <p><span>ashneer.bp@gmail.com</span></p>
-                                       <p><span>+8801601643808</span></p>
-                                    </div>
-                                </div>
 
+                                            <tr>
+                                                <th>
+                                                    <div class="payment-section">
+                                                        <div class="payment-image">
+                                                            <img src="assets/images/avatars/avata02.png" alt="">
+                                                        </div>
+                                                        <div class="product-pera">
+                                                            <h5 class="paymentTitle">Payment from David Buckley</h5>
+                                                            <p class="paymentDis">Refrence Id #8576420</p>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td> <span class="paymentDis">Jan 16, 2021</span></td>
+                                                <td> <span class="paymentDis">+876.00</span></td>
+                                                <td style="width: 150px;">
+                                                    <div class="progress" role="progressbar"
+                                                        aria-label="Success example" aria-valuenow="100"
+                                                        aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar bg-success" style="width: 100%">
+                                                            Complete</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <th>
+                                                    <div class="payment-section">
+                                                        <div class="payment-image">
+                                                            <img src="assets/images/avatars/avata03.png" alt="">
+                                                        </div>
+                                                        <div class="product-pera">
+                                                            <h5 class="paymentTitle">Payment from James Caviness</h5>
+                                                            <p class="paymentDis">Refrence Id #7865986</p>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td> <span class="paymentDis">Jan 16, 2021</span></td>
+                                                <td> <span class="paymentDis">+876.00</span></td>
+                                                <td style="width: 150px;">
+                                                    <div class="progress" role="progressbar"
+                                                        aria-label="Success example" aria-valuenow="100"
+                                                        aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar bg-success" style="width: 100%">
+                                                            Complete</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <th>
+                                                    <div class="payment-section">
+                                                        <div class="payment-image">
+                                                            <img src="assets/images/avatars/avata04.png" alt="">
+                                                        </div>
+                                                        <div class="product-pera">
+                                                            <h5 class="paymentTitle">Payment from John Roman</h5>
+                                                            <p class="paymentDis">Refrence Id #7865986</p>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td> <span class="paymentDis">Jan 16, 2021</span></td>
+                                                <td> <span class="paymentDis">+876.00</span></td>
+                                                <td style="width: 150px;">
+                                                    <div class="progress" role="progressbar"
+                                                        aria-label="Success example" aria-valuenow="100"
+                                                        aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar bg-success" style="width: 100%">
+                                                            Complete</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <th>
+                                                    <div class="payment-section">
+                                                        <div class="payment-image">
+                                                            <img src="assets/images/avatars/avata05.png" alt="">
+                                                        </div>
+                                                        <div class="product-pera">
+                                                            <h5 class="paymentTitle">Payment from Johnny Seitz</h5>
+                                                            <p class="paymentDis">Refrence Id #7865986</p>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td> <span class="paymentDis">Jan 16, 2021</span></td>
+                                                <td> <span class="paymentDis">+876.00</span></td>
+                                                <td style="width: 150px;">
+                                                    <div class="progress" role="progressbar" aria-label="Danger example"
+                                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar bg-danger" style="width: 100%">Declined
+                                                        </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <th>
+                                                    <div class="payment-section">
+                                                        <div class="payment-image">
+                                                            <img src="assets/images/avatars/avatar-07.jpeg" alt="">
+                                                        </div>
+                                                        <div class="product-pera">
+                                                            <h5 class="paymentTitle">Payment from Lewis Cruz</h5>
+                                                            <p class="paymentDis">Refrence Id #7865986</p>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td> <span class="paymentDis">Jan 16, 2021</span></td>
+                                                <td> <span class="paymentDis">+876.00</span></td>
+                                                <td style="width: 150px;">
+                                                    <div class="progress" role="progressbar"
+                                                        aria-label="Success example" aria-valuenow="100"
+                                                        aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar bg-success" style="width: 100%">
+                                                            Complete</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <th>
+                                                    <div class="payment-section">
+                                                        <div class="payment-image">
+                                                            <img src="assets/images/avatars/avatar-08.png" alt="">
+                                                        </div>
+                                                        <div class="product-pera">
+                                                            <h5 class="paymentTitle">Payment from David Buckley</h5>
+                                                            <p class="paymentDis">Refrence Id #7865986</p>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td> <span class="paymentDis">Jan 16, 2021</span></td>
+                                                <td> <span class="paymentDis">+876.00</span></td>
+                                                <td style="width: 150px;">
+                                                    <div class="progress" role="progressbar"
+                                                        aria-label="Animated striped example" aria-valuenow="100"
+                                                        aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                            style="width:100%">In Progress</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <th>
+                                                    <div class="payment-section">
+                                                        <div class="payment-image">
+                                                            <img src="assets/images/avatars/avatar-08.png" alt="">
+                                                        </div>
+                                                        <div class="product-pera">
+                                                            <h5 class="paymentTitle">Payment from David Buckley</h5>
+                                                            <p class="paymentDis">Refrence Id #7865986</p>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td> <span class="paymentDis">Jan 16, 2021</span></td>
+                                                <td> <span class="paymentDis">+876.00</span></td>
+                                                <td style="width: 150px;">
+                                                    <div class="progress" role="progressbar"
+                                                        aria-label="Success example" aria-valuenow="100"
+                                                        aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar bg-success" style="width: 100%">
+                                                            Complete</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <th>
+                                                    <div class="payment-section">
+                                                        <div class="payment-image">
+                                                            <img src="assets/images/avatars/avatar-09.jpg" alt="">
+                                                        </div>
+                                                        <div class="product-pera">
+                                                            <h5 class="paymentTitle">Payment from David Buckley</h5>
+                                                            <p class="paymentDis">Refrence Id #7865986</p>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td> <span class="paymentDis">Jan 16, 2021</span></td>
+                                                <td> <span class="paymentDis">+876.00</span></td>
+                                                <td style="width: 150px;">
+                                                    <div class="progress" role="progressbar"
+                                                        aria-label="Animated striped example" aria-valuenow="100"
+                                                        aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                            style="width:100%">In Progress</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <th>
+                                                    <div class="payment-section">
+                                                        <div class="payment-image">
+                                                            <img src="assets/images/avatars/avata04.png" alt="">
+                                                        </div>
+                                                        <div class="product-pera">
+                                                            <h5 class="paymentTitle">Payment from David Buckley</h5>
+                                                            <p class="paymentDis">Refrence Id #7865986</p>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td> <span class="paymentDis">Jan 16, 2021</span></td>
+                                                <td> <span class="paymentDis">+876.00</span></td>
+                                                <td style="width: 150px;">
+                                                    <div class="progress" role="progressbar"
+                                                        aria-label="Success example" aria-valuenow="100"
+                                                        aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar bg-success" style="width: 100%">
+                                                            Complete</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
-                      </div>
-                  </div>
-                  <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary"
-                          data-bs-dismiss="modal">Close</button>                      
-                  </div>
-              </div>
-          </div>
-      </div>
-
+                        <div class="col-md-4 mb-3">
+                            <div class="sideChart-section h-100 d-flex flex-column">
+                                <div class="card mb-2">
+                                    <div class="card-body">
+                                        <div class="header-Box storeVisitors">
+                                            <div class="headerBox-content">
+                                                <strong>Bounce Rate</strong>
+                                                <p class="revenuePara"><i class="bi bi-caret-up-fill pe-1"></i>48.32%
+                                                </p>
+                                            </div>
+                                            <div class="">
+                                                <span>+12.34 Increase</span>
+                                                <p class="revenuePara"><i class="bi bi-caret-up-fill pe-1"></i>From Last
+                                                    Week</p>
+                                            </div>
+                                        </div>
+                                        <div id="revenueChart1"></div>
+                                    </div>
                                 </div>
-                      
-                                <div class="d-block text-center card-footer">
-                                    <button id="deleteTable" class="mr-2 btn-icon btn-icon-only btn btn-outline-danger">
-                                        <i class="fa-solid fa-trash"></i>
-                                    </button>
-                                    <button onclick="MixinExample()" class="btn-wide btn btn-success">Save</button>
+                                <div class="card mb-2">
+                                    <div class="card-body">
+                                        <div class="header-Box storeVisitors">
+                                            <div class="headerBox-content">
+                                                <strong>Pageviews</strong>
+                                                <p class="totalcuPara"><i class="bi bi-caret-up-fill pe-1"></i>48.32%
+                                                </p>
+                                            </div>
+                                            <div class="">
+                                                <span>+12.34 Increase</span>
+                                                <p class="totalcuPara"><i class="bi bi-caret-up-fill pe-1"></i>From Last
+                                                    Week</p>
+                                            </div>
+                                        </div>
+                                        <div id="totalCustomers1"></div>
+                                    </div>
+                                </div>
+                                <div class="card mb-2">
+                                    <div class="card-body">
+                                        <div class="header-Box storeVisitors">
+                                            <div class="headerBox-content">
+                                                <strong>New Sessions</strong>
+                                                <p class="storeviPara"><i class="bi bi-caret-up-fill pe-1"></i>48.32%
+                                                </p>
+                                            </div>
+                                            <div class="">
+                                                <span>+12.34 Increase</span>
+                                                <p class="storeviPara"><i class="bi bi-caret-up-fill pe-1"></i>From Last
+                                                    Week</p>
+                                            </div>
+                                        </div>
+                                        <div id="storeVisitors1"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-lg-3">
-                            <div class="card-shadow-danger mb-3 widget-chart widget-chart2 text-left card">
-                                <div class="widget-content">
-                                    <div class="widget-content-outer">
-                                        <div class="widget-content-wrapper">
-                                            <div class="widget-content-left pr-2 fsize-1">
-                                                <div class="widget-numbers mt-0 fsize-3 text-danger">71%</div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <div class="headerBox-content mb-3">
+                                        <strong>New Customers</strong>
+                                    </div>
+                                    <div class="customar-section">
+                                        <div class="customat-details">
+                                            <div class="customar-image">
+                                                <img src="assets/images/avatars/avata01.png" alt="">
                                             </div>
-                                            <div class="widget-content-right w-100">
-                                                <div class="progress-bar-xs progress">
-                                                    <div class="progress-bar bg-danger" role="progressbar"
-                                                        aria-valuenow="71" aria-valuemin="0" aria-valuemax="100"
-                                                        style="width: 71%;"></div>
-                                                </div>
+                                            <div class="customar-about">
+                                                <strong>Shoan Stephen</strong>
+                                                <p class="paymentDis">s.stephen@xyz.com</p>
                                             </div>
                                         </div>
-                                        <div class="widget-content-left fsize-1">
-                                            <div class="text-muted opacity-6">Income Target</div>
+                                        <div class="customar-socal-icon">
+                                            <i class="bi bi-envelope-fill Circleicon"></i>
+                                            <i class="bi bi-mic-fill Circleicon"></i>
+                                            <i class="bi bi-three-dots-vertical Circleicon"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="customar-section">
+                                        <div class="customat-details">
+                                            <div class="customar-image">
+                                                <img src="assets/images/avatars/avatar-09.jpg" alt="">
+                                            </div>
+                                            <div class="customar-about">
+                                                <strong>Martin Hughes</strong>
+                                                <p class="paymentDis">martin.hug@xyz.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="customar-socal-icon">
+                                            <i class="bi bi-envelope-fill Circleicon"></i>
+                                            <i class="bi bi-mic-fill Circleicon"></i>
+                                            <i class="bi bi-three-dots-vertical Circleicon"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="customar-section">
+                                        <div class="customat-details">
+                                            <div class="customar-image">
+                                                <img src="assets/images/avatars/avata04.png" alt="">
+                                            </div>
+                                            <div class="customar-about">
+                                                <strong>Laura Madison</strong>
+                                                <p class="paymentDis">laura_01@xyz.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="customar-socal-icon">
+                                            <i class="bi bi-envelope-fill Circleicon"></i>
+                                            <i class="bi bi-mic-fill Circleicon"></i>
+                                            <i class="bi bi-three-dots-vertical Circleicon"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="customar-section">
+                                        <div class="customat-details">
+                                            <div class="customar-image">
+                                                <img src="assets/images/avatars/avatar-08.png" alt="">
+                                            </div>
+                                            <div class="customar-about">
+                                                <strong>Kitry Sentivel</strong>
+                                                <p class="paymentDis">kirty.dirayen@xyz.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="customar-socal-icon">
+                                            <i class="bi bi-envelope-fill Circleicon"></i>
+                                            <i class="bi bi-mic-fill Circleicon"></i>
+                                            <i class="bi bi-three-dots-vertical Circleicon"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="customar-section">
+                                        <div class="customat-details">
+                                            <div class="customar-image">
+                                                <img src="assets/images/avatars/avatar-07.jpeg" alt="">
+                                            </div>
+                                            <div class="customar-about">
+                                                <strong>aritavin dipendor</strong>
+                                                <p class="paymentDis">arativin-dipn@xyz.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="customar-socal-icon">
+                                            <i class="bi bi-envelope-fill Circleicon"></i>
+                                            <i class="bi bi-mic-fill Circleicon"></i>
+                                            <i class="bi bi-three-dots-vertical Circleicon"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="customar-section">
+                                        <div class="customat-details">
+                                            <div class="customar-image">
+                                                <img src="assets/images/avatars/avata05.png" alt="">
+                                            </div>
+                                            <div class="customar-about">
+                                                <strong>Joynal Stephen</strong>
+                                                <p class="paymentDis">kobi.stephen@xyz.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="customar-socal-icon">
+                                            <i class="bi bi-envelope-fill Circleicon"></i>
+                                            <i class="bi bi-mic-fill Circleicon"></i>
+                                            <i class="bi bi-three-dots-vertical Circleicon"></i>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="customar-section">
+                                        <div class="customat-details">
+                                            <div class="customar-image">
+                                                <img src="assets/images/avatars/avata04.png" alt="">
+                                            </div>
+                                            <div class="customar-about">
+                                                <strong>Mehidi Shen</strong>
+                                                <p class="paymentDis">madhi.senphen@xyz.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="customar-socal-icon">
+                                            <i class="bi bi-envelope-fill Circleicon"></i>
+                                            <i class="bi bi-mic-fill Circleicon"></i>
+                                            <i class="bi bi-three-dots-vertical Circleicon"></i>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="customar-section">
+                                        <div class="customat-details">
+                                            <div class="customar-image">
+                                                <img src="assets/images/avatars/MD.png" alt="">
+                                            </div>
+                                            <div class="customar-about">
+                                                <strong>Who Am I</strong>
+                                                <p class="paymentDis">whow.amixyz.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="customar-socal-icon">
+                                            <i class="bi bi-envelope-fill Circleicon"></i>
+                                            <i class="bi bi-mic-fill Circleicon"></i>
+                                            <i class="bi bi-three-dots-vertical Circleicon"></i>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="customar-section">
+                                        <div class="customat-details">
+                                            <div class="customar-image">
+                                                <img src="assets/images/avatars/avata03.png" alt="">
+                                            </div>
+                                            <div class="customar-about">
+                                                <strong>koyel Payel Chudhuri</strong>
+                                                <p class="paymentDis">koyel.pahen@xyz.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="customar-socal-icon">
+                                            <i class="bi bi-envelope-fill Circleicon"></i>
+                                            <i class="bi bi-mic-fill Circleicon"></i>
+                                            <i class="bi bi-three-dots-vertical Circleicon"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="customar-section">
+                                        <div class="customat-details">
+                                            <div class="customar-image">
+                                                <img src="assets/images/avatars/avata02.png" alt="">
+                                            </div>
+                                            <div class="customar-about">
+                                                <strong>kobirul Chudhuri</strong>
+                                                <p class="paymentDis">kobir.pen@xyz.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="customar-socal-icon">
+                                            <i class="bi bi-envelope-fill Circleicon"></i>
+                                            <i class="bi bi-mic-fill Circleicon"></i>
+                                            <i class="bi bi-three-dots-vertical Circleicon"></i>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="card-shadow-success mb-3 widget-chart widget-chart2 text-left card">
-                                <div class="widget-content">
-                                    <div class="widget-content-outer">
-                                        <div class="widget-content-wrapper">
-                                            <div class="widget-content-left pr-2 fsize-1">
-                                                <div class="widget-numbers mt-0 fsize-3 text-success">54%</div>
-                                            </div>
-                                            <div class="widget-content-right w-100">
-                                                <div class="progress-bar-xs progress">
-                                                    <div class="progress-bar bg-success" role="progressbar"
-                                                        aria-valuenow="54" aria-valuemin="0" aria-valuemax="100"
-                                                        style="width: 54%;"></div>
-                                                </div>
-                                            </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card h-100 d-flex flex-column">
+                                <div class="card-body">
+                                    <div class="headerBox-content mb-3">
+                                        <strong>Orders Summary Animate</strong>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-12 text-center">
+                                            <div id="circleChirt1"></div>
                                         </div>
-                                        <div class="widget-content-left fsize-1">
-                                            <div class="text-muted opacity-6">Expenses Target</div>
+                                        <div class="col-lg-4 col-md-12  text-center">
+                                            <div id="circleChart2"></div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12  text-center">
+                                            <div id="circlrChirt3"></div>
                                         </div>
                                     </div>
+                                    <div id="orderChart"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="card-shadow-warning mb-3 widget-chart widget-chart2 text-left card">
-                                <div class="widget-content">
-                                    <div class="widget-content-outer">
-                                        <div class="widget-content-wrapper">
-                                            <div class="widget-content-left pr-2 fsize-1">
-                                                <div class="widget-numbers mt-0 fsize-3 text-warning">32%</div>
-                                            </div>
-                                            <div class="widget-content-right w-100">
-                                                <div class="progress-bar-xs progress">
-                                                    <div class="progress-bar bg-warning" role="progressbar"
-                                                        aria-valuenow="32" aria-valuemin="0" aria-valuemax="100"
-                                                        style="width: 32%;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="widget-content-left fsize-1">
-                                            <div class="text-muted opacity-6">Spendings Target</div>
-                                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="cardTitleBox">
+                                        <h5 class="card-title chartTitle">Orders Summary</h5>
+                                        <p class="lastAll"><i class="bi bi-calendar-date pe-1"></i>in last 30 days
+                                            revenue
+                                        </p>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="card-shadow-info mb-3 widget-chart widget-chart2 text-left card">
-                                <div class="widget-content">
-                                    <div class="widget-content-outer">
-                                        <div class="widget-content-wrapper">
-                                            <div class="widget-content-left pr-2 fsize-1">
-                                                <div class="widget-numbers mt-0 fsize-3 text-info">89%</div>
-                                            </div>
-                                            <div class="widget-content-right w-100">
-                                                <div class="progress-bar-xs progress">
-                                                    <div class="progress-bar bg-info" role="progressbar"
-                                                        aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"
-                                                        style="width: 89%;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="widget-content-left fsize-1">
-                                            <div class="text-muted opacity-6">Totals Target</div>
-                                        </div>
+                                    <div class="table-responsive-lg">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th><strong>Order id</strong></th>
+                                                    <th><strong>Product</strong></th>
+                                                    <th><strong>Customer</strong></th>
+                                                    <th><strong>Date</strong></th>
+                                                    <th><strong>Price</strong></th>
+                                                    <th><strong>Status</strong></th>
+                                                    <th><strong>Action</strong></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="tableId">#887459</td>
+                                                    <td class="tableProduct">
+                                                        <div class="listproduct-section">
+                                                            <div class="listproducts-image">
+                                                                <img src="assets/images/products/idea.png" alt="">
+                                                            </div>
+                                                            <div class="product-pera">
+                                                                <p class="priceDis">Mini Laptop Device</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="tableCustomar">Alister Campel</td>
+                                                    <td class="tableId">18 Jul 2020</td>
+                                                    <td class="tableId">$87.00</td>
+                                                    <td class="tableStatus">
+                                                        <div class="statusItem">
+                                                            <div class="circleDot animatedPending"></div>
+                                                            <div class="statusText">
+                                                                <span class="stutsPanding">Pending</span>
+                                                            </div>
+                                                        </div>
+
+                                                    </td>
+                                                    <td class="tableAction">
+                                                        <div class="action-icon">
+                                                            <i class="bi bi-gear Circleicon"></i>
+                                                            <i class="bi bi-arrow-down-circle Circleicon"></i>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="tableId">#685749</td>
+                                                    <td class="tableProduct">
+                                                        <div class="listproduct-section">
+                                                            <div class="listproducts-image">
+                                                                <img src="assets/images/products/headphones.png" alt="">
+                                                            </div>
+                                                            <div class="product-pera">
+                                                                <p class="priceDis">Red Headphone 07</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="tableCustomar">Shoan Stephen</td>
+                                                    <td class="tableId">15 Jul 2020</td>
+                                                    <td class="tableId">$67.00</td>
+                                                    <td class="tableStatus">
+                                                        <div class="statusItem">
+                                                            <div class="circleDot animatedDispatched"></div>
+                                                            <div class="statusText">
+                                                                <span class="stutsDispatched">Dispatched</span>
+                                                            </div>
+                                                        </div>
+
+                                                    </td>
+                                                    <td class="tableAction">
+                                                        <div class="action-icon">
+                                                            <i class="bi bi-gear Circleicon"></i>
+                                                            <i class="bi bi-arrow-down-circle Circleicon"></i>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="tableId">#987549</td>
+                                                    <td class="tableProduct">
+                                                        <div class="listproduct-section">
+                                                            <div class="listproducts-image">
+                                                                <img src="assets/images/products/shoes.png" alt="">
+                                                            </div>
+                                                            <div class="product-pera">
+                                                                <p class="priceDis">Green Sport Shoes</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="tableCustomar">Martin Hughes</td>
+                                                    <td class="tableId">14 Jul 2020</td>
+                                                    <td class="tableId">$45.00</td>
+                                                    <td class="tableStatus">
+                                                        <div class="statusItem">
+                                                            <div class="circleDot animatedCompleted"></div>
+                                                            <div class="statusText">
+                                                                <span class="stutsCompleted">Completed</span>
+                                                            </div>
+                                                        </div>
+
+                                                    </td>
+                                                    <td class="tableAction">
+                                                        <div class="action-icon">
+                                                            <i class="bi bi-gear Circleicon"></i>
+                                                            <i class="bi bi-arrow-down-circle Circleicon"></i>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="tableId">#447896</td>
+                                                    <td class="tableProduct">
+                                                        <div class="listproduct-section">
+                                                            <div class="listproducts-image">
+                                                                <img src="assets/images/products/tshirt.png" alt="">
+                                                            </div>
+                                                            <div class="product-pera">
+                                                                <p class="priceDis">T-Shirt Blue</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="tableCustomar">Emy Jackson</td>
+                                                    <td class="tableId">28 Jul 2020</td>
+                                                    <td class="tableId">$96.00</td>
+                                                    <td class="tableStatus">
+                                                        <div class="statusItem">
+                                                            <div class="circleDot animatedPending"></div>
+                                                            <div class="statusText">
+                                                                <span class="stutsPanding">Pending</span>
+                                                            </div>
+                                                        </div>
+
+                                                    </td>
+                                                    <td class="tableAction">
+                                                        <div class="action-icon">
+                                                            <i class="bi bi-gear Circleicon"></i>
+                                                            <i class="bi bi-arrow-down-circle Circleicon"></i>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="tableId">#224578</td>
+                                                    <td class="tableProduct">
+                                                        <div class="listproduct-section">
+                                                            <div class="listproducts-image">
+                                                                <img src="assets/images/products/watch.png" alt="">
+                                                            </div>
+                                                            <div class="product-pera">
+                                                                <p class="priceDis">Smart Hand Watch</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="tableCustomar">Winslet Maya</td>
+                                                    <td class="tableId">22 Jul 2020</td>
+                                                    <td class="tableId">$80.00</td>
+                                                    <td class="tableStatus">
+                                                        <div class="statusItem">
+                                                            <div class="circleDot animatedCompleted"></div>
+                                                            <div class="statusText">
+                                                                <span class="stutsCompleted">Completed</span>
+                                                            </div>
+                                                        </div>
+
+                                                    </td>
+                                                    <td class="tableAction">
+                                                        <div class="action-icon">
+                                                            <i class="bi bi-gear Circleicon"></i>
+                                                            <i class="bi bi-arrow-down-circle Circleicon"></i>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="tableId">#335428</td>
+                                                    <td class="tableProduct">
+                                                        <div class="listproduct-section">
+                                                            <div class="listproducts-image">
+                                                                <img src="assets/images/products/user-interface.png"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="product-pera">
+                                                                <p class="priceDis">Purple Mobile Phone</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="tableCustomar">Keate Medona</td>
+                                                    <td class="tableId">12 Jul 2020</td>
+                                                    <td class="tableId">$75.00</td>
+                                                    <td class="tableStatus">
+                                                        <div class="statusItem">
+                                                            <div class="circleDot animatedCompleted"></div>
+                                                            <div class="statusText">
+                                                                <span class="stutsCompleted">Completed</span>
+                                                            </div>
+                                                        </div>
+
+                                                    </td>
+                                                    <td class="tableAction">
+                                                        <div class="action-icon">
+                                                            <i class="bi bi-gear Circleicon"></i>
+                                                            <i class="bi bi-arrow-down-circle Circleicon"></i>
+                                                        </div>
+                                                    </td>
+
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -1327,7 +1773,7 @@
                         <div class="app-footer-inner">
                             <div>
                                 © 2023 Developed by <a class="footercom" href="https://razinsoft.com/" target="blank"
-                                    style="color:#36a7e4; font-weight: bold;">Razinsoft.</a>
+                                    style="color:#4e06fe; font-weight: bold;">Razinsoft.</a>
                             </div>
                             <div class="d-none d-sm-block">
                                 <i class="fa-solid fa-phone"></i>
@@ -1342,15 +1788,18 @@
                 </div>
             </div>
         </div>
-    </div>        
+    </div>
 
     <script src="assets/scripts/jquery-3.6.3.min.js"></script>
-    <script type="text/javascript" src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/main.js"></script>
     <script src="assets/scripts/bootstrap.bundle.min.js"></script>
     <script src="assets/scripts/font-awesome.min.js"></script>
     <script src="assets/scripts/full-screen.js"></script>
     <script src="assets/scripts/chat.js"></script>
     <script src="assets/scripts/sweetalert2.min.js"></script>
+    <script src="assets/scripts/apexcharts.min.js"></script>
+    <script src="assets/scripts/apexchat.js"></script>
+    <script src="assets/scripts/datatables.min.js"></script>
     <script src="assets/scripts/scripts.js"></script>
 
 </body>

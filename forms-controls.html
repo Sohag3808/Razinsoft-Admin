@@ -15,7 +15,9 @@
     <meta name="description" content="">
     <meta name="mlapplication-tap-highlight" content="no">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/sweetalert2.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -64,6 +66,240 @@
                     </div>
                 </div>
                 <div class="app-header-right">
+                    <div class="badgeButtonBox">
+                        <div class="emailIcon">
+                            <button type="button" class="emailBadge position-relative  dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-envelope gmail"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    10
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </button>
+                            <div class="dropdown-menu p-0 auto emailMessege-section">
+                                <div class="dropdown-item emailNotifaction">
+                                    <div class="emailHeader">
+                                        <h6 class="massTitel">Message</h6>
+                                        <span class="massPera">Marks all as read</span>
+                                    </div>
+                                    <div class="messege-section">
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/avatar-07.jpeg" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/avata.jpg" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Althea Cabardo </h5>
+                                                    <span class="massPera">17 sce ago</span>
+                                                </div>
+                                                <div class="messTime">
+                                                    <p class="massPera">Many desktop publishing packages</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/avatar-09.jpg" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Oscar Garner </h5>
+                                                    <span class="massPera">8 min ago</span>
+                                                </div>
+                                                <div class="messTime">
+                                                    <p class="massPera">Various versions have evolved over</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/Profile.jpg" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Katherine Pechon </h5>
+                                                    <span class="massPera">15 min ago</span>
+                                                </div>
+                                                <div class="messTime">
+                                                    <p class="massPera">Making this the first true generator</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/avata03.png" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Amelia Doe </h5>
+                                                    <span class="massPera">25 min ago</span>
+                                                </div>
+                                                <div class="messTime">
+                                                    <p class="massPera">Duis aute irure dolor in reprehenderit </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="userImage">
+                                                <img src="assets/images/avatars/avatar-08.png" alt="">
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Cristina Jhons</h5>
+                                                    <span class="massPera">2 hrs ago</span>
+                                                </div>
+                                                <div class="messTime">
+                                                    <p class="massPera">The passage is attributed to an unknown</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="emailFooter">
+                                        <span class="massPera">View All Messages</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="notifactionIcon  me-4">
+                            <button type="button" class="emailBadge dropdown-toggle position-relative"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell noti"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    7
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </button>
+                            <div class="dropdown-menu p-0 emailNotifactionSection">
+                                <div class="dropdown-item emailNotifaction">
+                                    <div class="emailHeader">
+                                        <h6 class="massTitel">Notification</h6>
+                                        <span class="massPera">Marks all as read</span>
+                                    </div>
+                                    <div class="messege-section">
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox userIcon">
+                                                <i class="bi bi-people"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox cardIcon">
+                                                <i class="bi bi-cart3"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox pdfIcon">
+                                                <i class="bi bi-filetype-pdf"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox sendIcon">
+                                                <i class="bi bi-send"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox homeIcon">
+                                                <i class="bi bi-house-heart"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item d-flex gap-2 align-items-center">
+                                            <div class="iconBox massegeIcon">
+                                                <i class="bi bi-chat-dots"></i>
+                                            </div>
+                                            <div class="userDetails w-100">
+                                                <div class="userName">
+                                                    <h5 class="massTitel">Daisy Anderson </h5>
+                                                    <span class="massPera">5 sce ago</span>
+                                                </div>
+                                                <div>
+                                                    <p class="massPera">The standard chunk of lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="emailFooter">
+                                        <span class="massPera">View All Notification</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="user-profile-box dropdown">
                         <div class="nav-profile-box dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             <div class="profile-image">
@@ -76,14 +312,12 @@
                         </div>
 
                         <div class="dropdown-menu profile-item">
-
-                            <a href="#" class="dropdown-item"><i class="fa-solid fa-user me-2"></i>User
-                                Account
-                            </a>
                             <a href="#" class="dropdown-item"><i class="fa-solid fa-gear me-2"></i>Settings</a>
-                            <a href="#" class="dropdown-item"><i class="fa-solid fa-gear me-2"></i>Profile</a>
-                            <a href="#" class="dropdown-item"><i class="fa-solid fa-key me-2"></i>Change Password</a>
-                            <a href="#" class="dropdown-item"><i
+                            <a href="profile.html" class="dropdown-item"><i
+                                    class="fa-solid fa-gear me-2"></i>Profile</a>
+                            <a href="changepassword.html" class="dropdown-item"><i
+                                    class="fa-solid fa-key me-2"></i>Change Password</a>
+                            <a href="login.html" class="dropdown-item"><i
                                     class="fa-solid fa-right-from-bracket me-2"></i>Logout</a>
                         </div>
 
@@ -283,15 +517,37 @@
                             </div>
                             <div class="profile-content">
                                 <h2 class="nameSize">Md Sohag Sheke</h2>
-                                <p class="paraSize">sohag.@gmail.com</p>
+                                <p class="paraSize">sohag.razinsoft.@gmail.com</p>
                             </div>
                         </div>
                         <ul class="vertical-nav-menu">
                             <li>
-                                <a href="index.html">
-                                    <i class="fa-solid fa-gauge menu-icon"></i>
+                                <a href="index.html" class="mm-active">
+                                    <i class="fa-solid fa-house-user menu-icon"></i>
                                     Dashboard
+                                    <i class="fa fa-angle-down menu-state-icon"></i>
                                 </a>
+                                <ul>
+
+                                    <li class="sub-menu">
+                                        <a href="index.html">
+                                            <i class="fa-solid fa-gauge mr-1"></i>
+                                            Dashbord-01
+                                        </a>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="dashbord-2.html">
+                                            <i class="fa-solid fa-gauge mr-1"></i>
+                                            Dashbord-02
+                                        </a>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="dashbord-3.html">
+                                            <i class="fa-solid fa-gauge mr-1"></i>
+                                            Dashbord-03
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
 
                             <li>
@@ -338,12 +594,6 @@
                                             Navigation Menus
                                         </a>
                                     </li>
-                                    <li class="sub-menu">
-                                        <a href="elements/utilities.html">
-                                            <i class="fa-solid fa-wrench mr-1"></i>
-                                            Utilities
-                                        </a>
-                                    </li>
                                 </ul>
                             </li>
 
@@ -368,9 +618,9 @@
                                         </a>
                                     </li>
                                     <li class="sub-menu">
-                                        <a href="components/notifications.html">
+                                        <a href="components/toaster.html">
                                             <i class="fa-regular fa-bell mr-1"></i>
-                                            Notifications
+                                            Toaster
                                         </a>
                                     </li>
 
@@ -426,6 +676,13 @@
                                         <a href="components/maps.html">
                                             <i class="fa-solid fa-location-dot mr-1"></i>
                                             Maps
+                                        </a>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="components/icon.html">
+                                            <i><img src="assets/images/R_mini-logo.png"
+                                                    style="width: 18px;filter: grayscale(100%);" alt=""></i>
+                                            Icon
                                         </a>
                                     </li>
                                 </ul>
@@ -506,13 +763,14 @@
                                 </div>
                             </div>
                             <div class="page-title-actions">
-                                <button type="button" data-toggle="tooltip" title="Example Tooltip"
-                                    data-placement="bottom" class="btn-shadow mr-3 btn btn-dark">
+                                <button type="button" data-bs-toggle="tooltip" title="Example Tooltip"
+                                    data-bs-placement="bottom" data-bs-title="Tooltip on bottom"
+                                    class="btn-shadow mr-3 btn btn-dark">
                                     <i class="fa fa-star"></i>
                                 </button>
                                 <div class="d-inline-block dropdown">
                                     <button type="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                                        aria-expanded="false" class="btn-shadow dropdown-toggle bgBlue btn btn-dipBlue">
                                         <span class="btn-icon-wrapper pr-2 opacity-7">
                                             <i class="fa fa-business-time fa-w-20"></i>
                                         </span>
@@ -563,114 +821,384 @@
                     </div>
                     <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
                         <li class="nav-item">
-                            <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
-                                <span>Basic</span>
+                            <a role="tab" class="nav-link active btn btn-dipBlue my-3 mx-2" id="tab-0" data-toggle="tab"
+                                href="#tab-content-0">
+                                <strong>Basic</strong>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a role="tab" class="nav-link" id="tab-1" data-toggle="tab" href="#tab-content-1">
-                                <span>Input Groups</span>
+                            <a role="tab" class="nav-link btn btn-dipBlue my-3 mx-2" id="tab-1" data-toggle="tab"
+                                href="#tab-content-1">
+                                <strong>Input Groups</strong>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a role="tab" class="nav-link" id="tab-2" data-toggle="tab" href="#tab-content-2">
-                                <span>Custom Controls</span>
+                            <a role="tab" class="nav-link btn btn-dipBlue my-3 mx-2" id="tab-2" data-toggle="tab"
+                                href="#tab-content-2">
+                                <strong>Custom Controls</strong>
                             </a>
                         </li>
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <div class="main-card mb-3 card">
+                                <div class="col-md-6 mb-4">
+                                    <div class="main-card card d-flex h-100 flex-column">
                                         <div class="card-body">
-                                            <h5 class="card-title">Controls Types</h5>
-                                            <form class="">
-                                                <div class="position-relative form-group"><label for="exampleEmail"
-                                                        class="">Email</label><input name="email" id="exampleEmail"
-                                                        placeholder="with a placeholder" type="email"
-                                                        class="form-control"></div>
-                                                <div class="position-relative form-group"><label for="examplePassword"
-                                                        class="">Password</label><input name="password"
-                                                        id="examplePassword" placeholder="password placeholder"
-                                                        type="password" class="form-control"></div>
-                                                <div class="position-relative form-group"><label for="exampleSelect"
-                                                        class="">Select</label><select name="select" id="exampleSelect"
-                                                        class="form-control">
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                        <option>4</option>
-                                                        <option>5</option>
-                                                    </select></div>
-                                                <div class="position-relative form-group"><label
-                                                        for="exampleSelectMulti" class="">Select Multiple</label><select
-                                                        multiple="" name="selectMulti" id="exampleSelectMulti"
-                                                        class="form-control">
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                        <option>4</option>
-                                                        <option>5</option>
-                                                    </select></div>
-                                                <div class="position-relative form-group"><label for="exampleText"
-                                                        class="">Text Area</label><textarea name="text" id="exampleText"
-                                                        class="form-control"></textarea></div>
-                                                <div class="position-relative form-group"><label for="exampleFile"
-                                                        class="">File</label><input name="file" id="exampleFile"
-                                                        type="file" class="form-control-file">
-                                                    <small class="form-text text-muted">This is some placeholder
-                                                        block-level help text for the above input. It's a bit lighter
-                                                        and easily wraps to a new line.</small>
+                                            <h5 class="card-title py-2">Basic Form</h5>
+                                            <form action="#">
+                                                <div class="mb-3">
+                                                    <label for="exampleInputEmail1" class="form-label">Email
+                                                        address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                                        aria-describedby="emailHelp">
+                                                    <div id="emailHelp" class="form-text">We'll never share your email
+                                                        with anyone else.</div>
                                                 </div>
-                                                <button class="mt-1 btn btn-primary">Submit</button>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputPassword1"
+                                                        class="form-label">Password</label>
+                                                    <input type="password" class="form-control"
+                                                        id="exampleInputPassword1">
+                                                </div>
+                                                <div class="mb-3 form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Check me
+                                                        out</label>
+                                                </div>
+                                                <button type="submit" class="btn  bgBlue btn-dipBlue" onclick="showSuccessMessage('Submit ')">Submit</button>
                                             </form>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="main-card mb-3 card">
+
+                                <div class="col-md-6 mb-4">
+                                    <div class="main-card card d-flex h-100 flex-column">
                                         <div class="card-body">
-                                            <h5 class="card-title">Sizing</h5>
-                                            <form class=""><input placeholder="lg" type="text"
-                                                    class="mb-2 form-control-lg form-control"><input
-                                                    placeholder="default" type="text" class="mb-2 form-control"><input
-                                                    placeholder="sm" type="text"
-                                                    class="mb-2 form-control-sm form-control">
-                                                <div class="divider"></div>
-                                                <select class="mb-2 form-control-lg form-control">
-                                                    <option>Large Select</option>
-                                                </select><select class="mb-2 form-control">
-                                                    <option>Default Select</option>
-                                                </select><select class="form-control-sm form-control">
-                                                    <option>Small Select</option>
-                                                </select>
+                                            <h5 class="card-title py-2"> Basic Register form</h5>
+                                            <form action="#">
+                                                <!-- 2 column grid layout with text inputs for the first and last names -->
+                                                <div class="row mb-4">
+                                                    <div class="col">
+                                                        <div class="form-outline">
+                                                            <input type="text" id="form3Example1"
+                                                                class="form-control" />
+                                                            <label class="form-label" for="form3Example1">First
+                                                                name</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-outline">
+                                                            <input type="text" id="form3Example2"
+                                                                class="form-control" />
+                                                            <label class="form-label" for="form3Example2">Last
+                                                                name</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Email input -->
+                                                <div class="form-outline mb-2">
+                                                    <input type="email" id="form3Example3" class="form-control" />
+                                                    <label class="form-label" for="form3Example3">Email address</label>
+                                                </div>
+
+                                                <!-- Password input -->
+                                                <div class="form-outline mb-2">
+                                                    <input type="password" id="form3Example4" class="form-control" />
+                                                    <label class="form-label" for="form3Example4">Password</label>
+                                                </div>
+
+                                                <!-- Checkbox -->
+                                                <div class="form-check d-flex justify-content-center mb-4">
+                                                    <input class="form-check-input me-2" type="checkbox" value=""
+                                                        id="form2Example33" checked />
+                                                    <label class="form-check-label" for="form2Example33">
+                                                        Subscribe to our newsletter
+                                                    </label>
+                                                </div>
+
+                                                <!-- Submit button -->
+                                                <button type="submit" class="btn bgBlue btn-dipBlue mb-2"  onclick="showSuccessMessage('Sign In Success')">Sign
+                                                    In</button>
+
+                                                <!-- Register buttons -->
+                                                <div class="text-center">
+                                                    <p>or sign up with:</p>
+                                                    <button type="button" class="btn btn-secondary btn-floating mx-1">
+                                                        <i class="fab fa-facebook-f"></i>
+                                                    </button>
+
+                                                    <button type="button" class="btn btn-secondary btn-floating mx-1">
+                                                        <i class="fab fa-google"></i>
+                                                    </button>
+
+                                                    <button type="button" class="btn btn-secondary btn-floating mx-1">
+                                                        <i class="fab fa-twitter"></i>
+                                                    </button>
+
+                                                    <button type="button" class="btn btn-secondary btn-floating mx-1">
+                                                        <i class="fab fa-github"></i>
+                                                    </button>
+                                                </div>
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="main-card mb-3 card">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="main-card card d-flex h-100 flex-column">
                                         <div class="card-body">
-                                            <h5 class="card-title">Checkboxes &amp; Radios</h5>
-                                            <form class="">
-                                                <fieldset class="position-relative form-group">
-                                                    <div class="position-relative form-check"><label
-                                                            class="form-check-label"><input name="radio1" type="radio"
-                                                                class="form-check-input"> Option one is this and that—be
-                                                            sure to include why it's great</label>
+                                            <h5 class="card-title py-2">Login-Register</h5>
+                                            <!-- Pills navs -->
+                                            <ul class="nav nav-pills nav-justified mb-2" id="ex1" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <a class="nav-link active" id="tab-login" data-bs-toggle="pill"
+                                                        href="#pills-login" role="tab" aria-controls="pills-login"
+                                                        aria-selected="true">Login</a>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <a class="nav-link" id="tab-register" data-bs-toggle="pill"
+                                                        href="#pills-register" role="tab" aria-controls="pills-register"
+                                                        aria-selected="false">Register</a>
+                                                </li>
+                                            </ul>
+                                            <!-- Pills navs -->
+
+                                            <!-- Pills content -->
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade show active" id="pills-login" role="tabpanel"
+                                                    aria-labelledby="tab-login">
+                                                    <form action="#">
+                                                        <div class="text-center mb-2">
+                                                            <p>Sign in with:</p>
+                                                            <button type="button"
+                                                                class="btn btn-secondary btn-floating mx-1">
+                                                                <i class="fab fa-facebook-f"></i>
+                                                            </button>
+
+                                                            <button type="button"
+                                                                class="btn btn-secondary btn-floating mx-1">
+                                                                <i class="fab fa-google"></i>
+                                                            </button>
+
+                                                            <button type="button"
+                                                                class="btn btn-secondary btn-floating mx-1">
+                                                                <i class="fab fa-twitter"></i>
+                                                            </button>
+
+                                                            <button type="button"
+                                                                class="btn btn-secondary btn-floating mx-1">
+                                                                <i class="fab fa-github"></i>
+                                                            </button>
+                                                        </div>
+
+                                                        <p class="text-center">or:</p>
+
+                                                        <!-- Email input -->
+                                                        <div class="form-outline mb-2">
+                                                            <input type="email" id="loginName" class="form-control" />
+                                                            <label class="form-label" for="loginName">Email or
+                                                                username</label>
+                                                        </div>
+
+                                                        <!-- Password input -->
+                                                        <div class="form-outline mb-2">
+                                                            <input type="password" id="loginPassword"
+                                                                class="form-control" />
+                                                            <label class="form-label"
+                                                                for="loginPassword">Password</label>
+                                                        </div>
+
+                                                        <!-- 2 column grid layout -->
+                                                        <div class="row mb-2">
+                                                            <div class="col-md-6 d-flex justify-content-center">
+                                                                <!-- Checkbox -->
+                                                                <div class="form-check mb-3 mb-md-0">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="loginCheck" checked />
+                                                                    <label class="form-check-label" for="loginCheck">
+                                                                        Remember me </label>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-6 d-flex justify-content-center">
+                                                                <!-- Simple link -->
+                                                                <a href="#!">Forgot password?</a>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Submit button -->
+                                                        <div class="text-center">
+                                                            <button type="submit"
+                                                                class="btn btn-dipBlue bgBlue mb-2"  onclick="showSuccessMessage('Sign In Success')">Sign
+                                                                in</button>
+                                                        </div>
+
+                                                        <!-- Register buttons -->
+                                                        <div class="text-center">
+                                                            <p>Not a member? <a href="#!">Register</a></p>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="tab-pane fade" id="pills-register" role="tabpanel"
+                                                    aria-labelledby="tab-register">
+                                                    <form action="#">
+                                                        <div class="text-center mb-3">
+                                                            <p>Sign up with:</p>
+                                                            <button type="button"
+                                                                class="btn btn-secondary btn-floating mx-1">
+                                                                <i class="fab fa-facebook-f"></i>
+                                                            </button>
+
+                                                            <button type="button"
+                                                                class="btn btn-secondary btn-floating mx-1">
+                                                                <i class="fab fa-google"></i>
+                                                            </button>
+
+                                                            <button type="button"
+                                                                class="btn btn-secondary btn-floating mx-1">
+                                                                <i class="fab fa-twitter"></i>
+                                                            </button>
+
+                                                            <button type="button"
+                                                                class="btn btn-secondary btn-floating mx-1">
+                                                                <i class="fab fa-github"></i>
+                                                            </button>
+                                                        </div>
+
+                                                        <p class="text-center">or:</p>
+
+                                                        <!-- Name input -->
+                                                        <div class="form-outline mb-2">
+                                                            <input type="text" id="registerName" class="form-control" />
+                                                            <label class="form-label" for="registerName">Name</label>
+                                                        </div>
+
+                                                        <!-- Username input -->
+                                                        <div class="form-outline mb-2">
+                                                            <input type="text" id="registerUsername"
+                                                                class="form-control" />
+                                                            <label class="form-label"
+                                                                for="registerUsername">Username</label>
+                                                        </div>
+
+                                                        <!-- Email input -->
+                                                        <div class="form-outline mb-2">
+                                                            <input type="email" id="registerEmail"
+                                                                class="form-control" />
+                                                            <label class="form-label" for="registerEmail">Email</label>
+                                                        </div>
+
+                                                        <!-- Password input -->
+                                                        <div class="form-outline mb-2">
+                                                            <input type="password" id="registerPassword"
+                                                                class="form-control" />
+                                                            <label class="form-label"
+                                                                for="registerPassword">Password</label>
+                                                        </div>
+
+                                                        <!-- Repeat Password input -->
+                                                        <div class="form-outline mb-2">
+                                                            <input type="password" id="registerRepeatPassword"
+                                                                class="form-control" />
+                                                            <label class="form-label"
+                                                                for="registerRepeatPassword">Repeat password</label>
+                                                        </div>
+
+                                                        <!-- Checkbox -->
+                                                        <div class="form-check d-flex justify-content-center mb-4">
+                                                            <input class="form-check-input me-2" type="checkbox"
+                                                                value="" id="registerCheck" checked
+                                                                aria-describedby="registerCheckHelpText" />
+                                                            <label class="form-check-label" for="registerCheck">
+                                                                I have read and agree to the terms
+                                                            </label>
+                                                        </div>
+
+                                                        <!-- Submit button -->
+                                                        <div class="text-center">
+                                                            <button type="submit"
+                                                                class="btn btn-dipBlue bgBlue mb-2" onclick="showSuccessMessage('Sign In Success')">Sign in</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <!-- Pills content -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-4">
+                                    <div class="main-card card d-flex h-100 flex-column">
+                                        <div class="card-body">
+                                            <h5 class="card-title py-2">Controls Types</h5>
+                                            <form action="#">
+                                                <!-- 2 column grid layout with text inputs for the first and last names -->
+                                                <div class="row mb-2" style="padding-left: 0 !important;">
+                                                    <div class="col p-0">
+                                                        <div class="form-outline">
+                                                            <input type="text" id="form6Example1"
+                                                                class="form-control" />
+                                                            <label class="form-label" for="form6Example1">First
+                                                                name</label>
+                                                        </div>
                                                     </div>
-                                                    <div class="position-relative form-check"><label
-                                                            class="form-check-label"><input name="radio1" type="radio"
-                                                                class="form-check-input"> Option two can be something
-                                                            else and selecting it will deselect option
-                                                            one</label></div>
-                                                    <div class="position-relative form-check disabled"><label
-                                                            class="form-check-label"><input name="radio1" disabled=""
-                                                                type="radio" class="form-check-input"> Option three is
-                                                            disabled</label></div>
-                                                </fieldset>
-                                                <div class="position-relative form-check"><label
-                                                        class="form-check-label"><input type="checkbox"
-                                                            class="form-check-input"> Check me out</label></div>
+                                                    <div class="col">
+                                                        <div class="form-outline">
+                                                            <input type="text" id="form6Example2"
+                                                                class="form-control" />
+                                                            <label class="form-label" for="form6Example2">Last
+                                                                name</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Text input -->
+                                                <div class="form-outline mb-2">
+                                                    <input type="text" id="form6Example3" class="form-control" />
+                                                    <label class="form-label" for="form6Example3">Company name</label>
+                                                </div>
+
+                                                <!-- Text input -->
+                                                <div class="form-outline mb-2">
+                                                    <input type="text" id="form6Example4" class="form-control" />
+                                                    <label class="form-label" for="form6Example4">Address</label>
+                                                </div>
+
+                                                <!-- Email input -->
+                                                <div class="form-outline mb-2">
+                                                    <input type="email" id="form6Example5" class="form-control" />
+                                                    <label class="form-label" for="form6Example5">Email</label>
+                                                </div>
+
+                                                <!-- Number input -->
+                                                <div class="form-outline mb-2">
+                                                    <input type="number" id="form6Example6" class="form-control" />
+                                                    <label class="form-label" for="form6Example6">Phone</label>
+                                                </div>
+
+                                                <!-- Message input -->
+                                                <div class="form-outline mb-2">
+                                                    <textarea class="form-control" id="form6Example7"
+                                                        rows="4"></textarea>
+                                                    <label class="form-label" for="form6Example7">Additional
+                                                        information</label>
+                                                </div>
+
+                                                <!-- Checkbox -->
+                                                <div class="form-check d-flex justify-content-center mb-4">
+                                                    <input class="form-check-input me-2" type="checkbox" value=""
+                                                        id="form6Example8" checked />
+                                                    <label class="form-check-label" for="form6Example8"> Create an
+                                                        account? </label>
+                                                </div>
+
+                                                <!-- Submit button -->
+                                                <button type="submit" class="btn btn-dipBlue bgBlue mb-2" onclick="showSuccessMessage('Order Success')">Place
+                                                    order</button>
                                             </form>
                                         </div>
                                     </div>
@@ -679,364 +1207,463 @@
                         </div>
                         <div class="tab-pane tabs-animation fade" id="tab-content-1" role="tabpanel">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <div class="main-card mb-3 card">
+                                <div class="col-md-6 mb-3">
+                                    <div class="main-card card h-100 d-flex flex-column">
                                         <div class="card-body">
-                                            <h5 class="card-title">Input Groups</h5>
-                                            <div>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend"><span
-                                                            class="input-group-text">@</span></div>
-                                                    <input placeholder="username" type="text" class="form-control">
-                                                </div>
-                                                <br>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend"><span
-                                                            class="input-group-text"><input
-                                                                aria-label="Checkbox for following text input"
-                                                                type="checkbox" class=""></span></div>
-                                                    <input placeholder="Check it out" type="text" class="form-control">
-                                                </div>
-                                                <br>
-                                                <div class="input-group"><input placeholder="username" type="text"
-                                                        class="form-control">
-                                                    <div class="input-group-append"><span
-                                                            class="input-group-text">@example.com</span></div>
-                                                </div>
-                                                <br>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend"><span
-                                                            class="input-group-text">$</span><span
-                                                            class="input-group-text">$</span></div>
-                                                    <input placeholder="Dolla dolla billz yo!" type="text"
-                                                        class="form-control">
-                                                    <div class="input-group-append"><span
-                                                            class="input-group-text">$</span><span
-                                                            class="input-group-text">$</span></div>
-                                                </div>
-                                                <br>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend"><span
-                                                            class="input-group-text">$</span></div>
-                                                    <input placeholder="Amount" step="1" type="number"
-                                                        class="form-control">
-                                                    <div class="input-group-append"><span
-                                                            class="input-group-text">.00</span></div>
-                                                </div>
+                                            <h5 class="card-title py-2">Basic Input Groups</h5>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text " id="basic-addon1">@</span>
+                                                <input type="text" class="form-control" placeholder="Username"
+                                                    aria-label="Username" aria-describedby="basic-addon1">
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="main-card mb-3 card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Input Group Button Dropdown</h5>
+
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control"
+                                                    placeholder="Recipient's username" aria-label="Recipient's username"
+                                                    aria-describedby="basic-addon2">
+                                                <span class="input-group-text " id="basic-addon2">@example.com</span>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="basic-url" class="form-label">Your vanity URL</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text "
+                                                        id="basic-addon3">https://example.com/users/</span>
+                                                    <input type="text" class="form-control" id="basic-url"
+                                                        aria-describedby="basic-addon3 basic-addon4">
+                                                </div>
+                                                <div class="form-text" id="basic-addon4">Example help text goes outside
+                                                    the input group.</div>
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text ">$</span>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Amount (to the nearest dollar)">
+                                                <span class="input-group-text ">.00</span>
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" placeholder="Username"
+                                                    aria-label="Username">
+                                                <span class="input-group-text ">@</span>
+                                                <input type="text" class="form-control" placeholder="Server"
+                                                    aria-label="Server">
+                                            </div>
+
                                             <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <button type="button" data-toggle="dropdown" aria-haspopup="true"
-                                                        aria-expanded="false"
-                                                        class="dropdown-toggle btn btn-secondary">Button
-                                                        Dropdown</button>
-                                                    <div tabindex="-1" role="menu" aria-hidden="true"
-                                                        class="dropdown-menu">
-                                                        <h6 tabindex="-1" class="dropdown-header">Header</h6>
-                                                        <button type="button" disabled="" tabindex="-1"
-                                                            class="disabled dropdown-item">Action</button>
-                                                        <button type="button" tabindex="0" class="dropdown-item">Another
-                                                            Action</button>
-                                                        <div tabindex="-1" class="dropdown-divider"></div>
-                                                        <button type="button" tabindex="0" class="dropdown-item">Another
-                                                            Action</button>
-                                                    </div>
-                                                </div>
-                                                <input type="text" class="form-control">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="main-card mb-3 card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Input Group Button Shorthand</h5>
-                                            <div>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <button class="btn btn-secondary">To the Left!</button>
-                                                    </div>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                                <br>
-                                                <div class="input-group"><input type="text" class="form-control">
-                                                    <div class="input-group-append">
-                                                        <button class="btn btn-secondary">To the Right!</button>
-                                                    </div>
-                                                </div>
-                                                <br>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <button class="btn btn-danger">To the Left!</button>
-                                                    </div>
-                                                    <input placeholder="and..." type="text" class="form-control">
-                                                    <div class="input-group-append">
-                                                        <button class="btn btn-success">To the Right!</button>
-                                                    </div>
-                                                </div>
+                                                <span class="input-group-text ">With textarea</span>
+                                                <textarea class="form-control" aria-label="With textarea"></textarea>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="main-card mb-3 card">
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="main-card card h-100 d-flex flex-column">
                                         <div class="card-body">
-                                            <h5 class="card-title">Input Group Sizing</h5>
-                                            <div>
-                                                <div class="input-group input-group-lg">
-                                                    <div class="input-group-prepend"><span
-                                                            class="input-group-text">@lg</span></div>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                                <br>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend"><span
-                                                            class="input-group-text">@normal</span></div>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                                <br>
-                                                <div class="input-group input-group-sm">
-                                                    <div class="input-group-prepend"><span
-                                                            class="input-group-text">@sm</span></div>
-                                                    <input type="text" class="form-control">
-                                                </div>
+                                            <h5 class="card-title py-2">Custom file input</h5>
+                                            <div class="input-group mb-3">
+                                                <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                                                <input type="file" class="form-control" id="inputGroupFile01">
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <input type="file" class="form-control" id="inputGroupFile02">
+                                                <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <button class="btn btn-outline-secondary btn-bg-light" type="button"
+                                                    id="inputGroupFileAddon03">Button</button>
+                                                <input type="file" class="form-control" id="inputGroupFile03"
+                                                    aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+                                            </div>
+
+                                            <div class="input-group">
+                                                <input type="file" class="form-control" id="inputGroupFile04"
+                                                    aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                                <button class="btn btn-outline-secondary btn-bg-light" type="button"
+                                                    id="inputGroupFileAddon04">Button</button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="main-card mb-3 card">
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="main-card card h-100 d-flex flex-column">
                                         <div class="card-body">
-                                            <h5 class="card-title">Input Group Addon</h5>
-                                            <div>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend"><span class="input-group-text">To
-                                                            the Left!</span></div>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                                <br>
-                                                <div class="input-group"><input type="text" class="form-control">
-                                                    <div class="input-group-append"><span class="input-group-text">To
-                                                            the Right!</span></div>
-                                                </div>
-                                                <br>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend"><span class="input-group-text">To
-                                                            the Left!</span></div>
-                                                    <input placeholder="and..." type="text" class="form-control">
-                                                    <div class="input-group-append"><span class="input-group-text">To
-                                                            the Right!</span></div>
-                                                </div>
+                                            <h5 class="card-title py-2">Sizing Input Groups</h5>
+                                            <div class="input-group input-group-sm mb-3">
+                                                <span class="input-group-text " id="inputGroup-sizing-sm">Small</span>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Sizing example input"
+                                                    aria-describedby="inputGroup-sizing-sm">
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text "
+                                                    id="inputGroup-sizing-default">Default</span>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Sizing example input"
+                                                    aria-describedby="inputGroup-sizing-default">
+                                            </div>
+
+                                            <div class="input-group input-group-lg">
+                                                <span class="input-group-text " id="inputGroup-sizing-lg">Large</span>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Sizing example input"
+                                                    aria-describedby="inputGroup-sizing-lg">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="main-card mb-3 card">
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="main-card card h-100 d-flex flex-column">
                                         <div class="card-body">
-                                            <h5 class="card-title">Input Group Button</h5>
-                                            <div>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <button class="btn btn-secondary">I'm a button</button>
-                                                    </div>
-                                                    <input type="text" class="form-control">
+                                            <h5 class="card-title py-2">Multiple addons Input Groups</h5>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-text">
+                                                    <input class="form-check-input mt-0" type="checkbox" value=""
+                                                        aria-label="Checkbox for following text input">
                                                 </div>
-                                                <br>
-                                                <div class="input-group"><input type="text" class="form-control">
-                                                    <div class="input-group-append">
-                                                        <button type="button" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false"
-                                                            class="dropdown-toggle btn btn-secondary">Button
-                                                            Dropdown</button>
-                                                        <div tabindex="-1" role="menu" aria-hidden="true"
-                                                            class="dropdown-menu">
-                                                            <h6 tabindex="-1" class="dropdown-header">Header</h6>
-                                                            <button type="button" disabled="" tabindex="-1"
-                                                                class="disabled dropdown-item">Action</button>
-                                                            <button type="button" tabindex="0"
-                                                                class="dropdown-item">Another Action</button>
-                                                            <div tabindex="-1" class="dropdown-divider"></div>
-                                                            <button type="button" tabindex="0"
-                                                                class="dropdown-item">Another Action</button>
-                                                        </div>
-                                                    </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox">
+                                            </div>
+
+                                            <div class="input-group">
+                                                <div class="input-group-text">
+                                                    <input class="form-check-input mt-0" type="radio" value=""
+                                                        aria-label="Radio button for following text input">
                                                 </div>
-                                                <br>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <button class="btn btn-outline-secondary">Split Button</button>
-                                                        <button type="button" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false"
-                                                            class="dropdown-toggle dropdown-toggle-split btn btn-outline-secondary"><span
-                                                                class="sr-only">Toggle Dropdown</span></button>
-                                                        <div tabindex="-1" role="menu" aria-hidden="true"
-                                                            class="dropdown-menu">
-                                                            <h6 tabindex="-1" class="dropdown-header">Header</h6>
-                                                            <button type="button" disabled="" tabindex="-1"
-                                                                class="disabled dropdown-item">Action</button>
-                                                            <button type="button" tabindex="0"
-                                                                class="dropdown-item">Another Action</button>
-                                                            <div tabindex="-1" class="dropdown-divider"></div>
-                                                            <button type="button" tabindex="0"
-                                                                class="dropdown-item">Another Action</button>
-                                                        </div>
-                                                    </div>
-                                                    <input placeholder="and..." type="text" class="form-control">
-                                                    <div class="input-group-append">
-                                                        <button class="btn btn-secondary">I'm a button</button>
-                                                    </div>
-                                                </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with radio button">
+                                            </div>
+                                            <div class="input-group my-3">
+                                                <span class="input-group-text ">$</span>
+                                                <span class="input-group-text ">0.00</span>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Dollar amount (with dot and two decimal places)">
+                                            </div>
+
+                                            <div class="input-group">
+                                                <input type="text" class="form-control"
+                                                    aria-label="Dollar amount (with dot and two decimal places)">
+                                                <span class="input-group-text ">$</span>
+                                                <span class="input-group-text ">0.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="main-card card h-100 d-flex flex-column">
+                                        <div class="card-body">
+                                            <h5 class="card-title py-2">Buttons with Dropdowns Input Groups</h5>
+                                            <div class="input-group mb-3">
+                                                <button class="btn btn-dipBlue bgBlueDop dropdown-toggle" type="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Dropdown
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider" />
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                                </ul>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with dropdown button" />
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with dropdown button" />
+                                                <button class="btn btn-dipBlue bgBlueDop dropdown-toggle" type="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Dropdown
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider" />
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="input-group">
+                                                <button class="btn btn-dipBlue bgBlueDop  dropdown-toggle" type="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Dropdown
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action before</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action before</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider" />
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                                </ul>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with 2 dropdown buttons" />
+                                                <button class="btn btn-dipBlue bgBlueDop dropdown-toggle" type="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Dropdown
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider" />
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="main-card card h-100 d-flex flex-column">
+                                        <div class="card-body">
+                                            <h5 class="card-title py-2">Button addons Input Groups</h5>
+                                            <div class="input-group mb-3">
+                                                <button class="btn btn-outline-secondary btn-bg-light" type="button" id="button-addon1"
+                                                    data-bs-ripple-color="dark">
+                                                    Button
+                                                </button>
+                                                <input type="text" class="form-control" placeholder=""
+                                                    aria-label="Example text with button addon"
+                                                    aria-describedby="button-addon1" />
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control"
+                                                    placeholder="Recipient's username" aria-label="Recipient's username"
+                                                    aria-describedby="button-addon2" />
+                                                <button class="btn btn-outline-secondary btn-bg-light" type="button" id="button-addon2"
+                                                    data-bs-ripple-color="dark">
+                                                    Button
+                                                </button>
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <button class="btn btn-outline-secondary btn-bg-light" type="button"
+                                                    data-bs-ripple-color="dark">
+                                                    Button
+                                                </button>
+                                                <button class="btn btn-outline-secondary btn-bg-light" type="button"
+                                                    data-bs-ripple-color="dark">
+                                                    Button
+                                                </button>
+                                                <input type="text" class="form-control" placeholder=""
+                                                    aria-label="Example text with two button addons" />
+                                            </div>
+
+                                            <div class="input-group">
+                                                <input type="text" class="form-control"
+                                                    placeholder="Recipient's username"
+                                                    aria-label="Recipient's username with two button addons" />
+                                                <button class="btn btn-outline-secondary btn-bg-light" type="button"
+                                                    data-bs-ripple-color="dark">
+                                                    Button
+                                                </button>
+                                                <button class="btn btn-outline-secondary btn-bg-light" type="button"
+                                                    data-bs-ripple-color="dark">
+                                                    Button
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="tab-pane tabs-animation fade" id="tab-content-2" role="tabpanel">
-                            <form class="">
+                            <form action="#">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Checkboxes</h5>
-                                                <div class="position-relative form-group">
-                                                    <div>
-                                                        <div class="custom-checkbox custom-control"><input
-                                                                type="checkbox" id="exampleCustomCheckbox"
-                                                                class="custom-control-input"><label
-                                                                class="custom-control-label"
-                                                                for="exampleCustomCheckbox">Check this
-                                                                custom checkbox</label></div>
-                                                        <div class="custom-checkbox custom-control"><input
-                                                                type="checkbox" id="exampleCustomCheckbox2"
-                                                                class="custom-control-input"><label
-                                                                class="custom-control-label"
-                                                                for="exampleCustomCheckbox2">Or this
-                                                                one</label></div>
-                                                        <div class="custom-checkbox custom-control"><input
-                                                                type="checkbox" id="exampleCustomCheckbox3" disabled=""
-                                                                class="custom-control-input"><label
-                                                                class="custom-control-label"
-                                                                for="exampleCustomCheckbox3">But
-                                                                not this disabled one</label></div>
-                                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="main-card card h-100 d-flex flex-column">
+                                            <div class="card-body d-flex flex-column">
+                                                <h5 class="card-title py-2">Switches</h5>
+                                                <!-- Default switch -->
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" role="switch"
+                                                        id="flexSwitchCheckDefault" />
+                                                    <label class="form-check-label" for="flexSwitchCheckDefault">Default
+                                                        switch checkbox input</label>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Inline</h5>
-                                                <div class="position-relative form-group">
-                                                    <div>
-                                                        <div
-                                                            class="custom-checkbox custom-control custom-control-inline">
-                                                            <input type="checkbox" id="exampleCustomInline"
-                                                                class="custom-control-input"><label
-                                                                class="custom-control-label"
-                                                                for="exampleCustomInline">An inline custom
-                                                                input</label>
-                                                        </div>
-                                                        <div
-                                                            class="custom-checkbox custom-control custom-control-inline">
-                                                            <input type="checkbox" id="exampleCustomInline2"
-                                                                class="custom-control-input"><label
-                                                                class="custom-control-label"
-                                                                for="exampleCustomInline2">and another one</label>
-                                                        </div>
-                                                    </div>
+
+                                                <!-- Checked switch -->
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" role="switch"
+                                                        id="flexSwitchCheckChecked" checked />
+                                                    <label class="form-check-label" for="flexSwitchCheckChecked">Checked
+                                                        switch checkbox input</label>
+                                                </div>
+
+                                                <!-- Default disabled switch -->
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" role="switch"
+                                                        id="flexSwitchCheckDisabled" disabled />
+                                                    <label class="form-check-label"
+                                                        for="flexSwitchCheckDisabled">Disabled switch checkbox
+                                                        input</label>
+                                                </div>
+
+                                                <!-- Checked disabled switch -->
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" role="switch"
+                                                        id="flexSwitchCheckCheckedDisabled" checked disabled />
+                                                    <label class="form-check-label"
+                                                        for="flexSwitchCheckCheckedDisabled">Disabled checked switch
+                                                        checkbox input</label>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
+
+                                    <div class="col-md-6 mb-3">
+                                        <div class="main-card card h-100 d-flex flex-column">
                                             <div class="card-body">
-                                                <h5 class="card-title">Radios</h5>
-                                                <div class="position-relative form-group">
-                                                    <div>
-                                                        <div class="custom-radio custom-control"><input type="radio"
-                                                                id="exampleCustomRadio" name="customRadio"
-                                                                class="custom-control-input"><label
-                                                                class="custom-control-label"
-                                                                for="exampleCustomRadio">Select
-                                                                this custom radio</label></div>
-                                                        <div class="custom-radio custom-control"><input type="radio"
-                                                                id="exampleCustomRadio2" name="customRadio"
-                                                                class="custom-control-input"><label
-                                                                class="custom-control-label"
-                                                                for="exampleCustomRadio2">Or
-                                                                this one</label></div>
-                                                        <div class="custom-radio custom-control"><input type="radio"
-                                                                id="exampleCustomRadio3" disabled=""
-                                                                class="custom-control-input"><label
-                                                                class="custom-control-label"
-                                                                for="exampleCustomRadio3">But not this
-                                                                disabled one</label></div>
-                                                    </div>
+                                                <h5 class="card-title py-2">Checkboxes</h5>
+                                                <!-- Default checkbox -->
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault" />
+                                                    <label class="form-check-label" for="flexCheckDefault">Default
+                                                        checkbox</label>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Form Select</h5>
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <div class="position-relative form-group"><label
-                                                                for="exampleCustomSelect" class="">Custom
-                                                                Select</label><select type="select"
-                                                                id="exampleCustomSelect" name="customSelect"
-                                                                class="custom-select">
-                                                                <option value="">Select</option>
-                                                                <option>Value 1</option>
-                                                                <option>Value 2</option>
-                                                                <option>Value 3</option>
-                                                                <option>Value 4</option>
-                                                                <option>Value 5</option>
-                                                            </select></div>
-                                                        <div class="position-relative form-group"><label
-                                                                for="exampleCustomMutlipleSelect" class="">Custom
-                                                                Multiple Select</label><select multiple="" type="select"
-                                                                id="exampleCustomMutlipleSelect" name="customSelect"
-                                                                class="custom-select">
-                                                                <option value="">Select</option>
-                                                                <option>Value 1</option>
-                                                                <option>Value 2</option>
-                                                                <option>Value 3</option>
-                                                                <option>Value 4</option>
-                                                                <option>Value 5</option>
-                                                            </select></div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="position-relative form-group"><label
-                                                                for="exampleCustomSelectDisabled" class="">Custom Select
-                                                                Disabled</label><select type="select"
-                                                                id="exampleCustomSelectDisabled" name="customSelect"
-                                                                disabled="" class="custom-select">
-                                                                <option value="">Select</option>
-                                                                <option>Value 1</option>
-                                                                <option>Value 2</option>
-                                                                <option>Value 3</option>
-                                                                <option>Value 4</option>
-                                                                <option>Value 5</option>
-                                                            </select></div>
-                                                        <div class="position-relative form-group"><label
-                                                                for="exampleCustomMutlipleSelectDisabled"
-                                                                class="">Custom Multiple Select Disabled</label><select
-                                                                multiple="" type="select"
-                                                                id="exampleCustomMutlipleSelectDisabled"
-                                                                name="customSelect" disabled="" class="custom-select">
-                                                                <option value="">Select</option>
-                                                                <option>Value 1</option>
-                                                                <option>Value 2</option>
-                                                                <option>Value 3</option>
-                                                                <option>Value 4</option>
-                                                                <option>Value 5</option>
-                                                            </select></div>
-                                                    </div>
+
+                                                <!-- Checked checkbox -->
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckChecked" checked />
+                                                    <label class="form-check-label" for="flexCheckChecked">Checked
+                                                        checkbox</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDisabled" disabled />
+                                                    <label class="form-check-label" for="flexCheckDisabled">Disabled
+                                                        checkbox</label>
+                                                </div>
+
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckCheckedDisabled" checked disabled />
+                                                    <label class="form-check-label"
+                                                        for="flexCheckCheckedDisabled">Disabled checked checkbox</label>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <div class="main-card card h-100 d-flex flex-column">
+                                            <div class="card-body">
+                                                <h5 class="card-title py-2">Checkboxes</h5>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                        id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                        Default radio
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                        id="flexRadioDefault2" checked>
+                                                    <label class="form-check-label" for="flexRadioDefault2">
+                                                        Default checked radio
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+                                                    <label class="form-check-label" for="flexRadioDisabled">
+                                                        Disabled radio
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="flexRadioDisabled" id="flexRadioCheckedDisabled" checked
+                                                        disabled>
+                                                    <label class="form-check-label" for="flexRadioCheckedDisabled">
+                                                        Disabled checked radio
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                                        id="exampleRadios1" value="option1" checked>
+                                                    <label class="form-check-label" for="exampleRadios1">
+                                                        Default radio
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                                        id="exampleRadios2" value="option2">
+                                                    <label class="form-check-label" for="exampleRadios2">
+                                                        Second default radio
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                                        id="exampleRadios3" value="option3" disabled>
+                                                    <label class="form-check-label" for="exampleRadios3">
+                                                        Disabled radio
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <div class="main-card card h-100 d-flex flex-column">
+                                            <div class="card-body d-flex flex-column">
+                                                <h5 class="card-title py-2">Checkboxes</h5>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                    <label class="form-check-label" for="inlineCheckbox1">1</label>
+                                                  </div>
+                                                  <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                    <label class="form-check-label" for="inlineCheckbox2">2</label>
+                                                  </div>
+                                                  <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+                                                    <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+                                                  </div>
+                                                  <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                    <label class="form-check-label" for="inlineRadio1">1</label>
+                                                  </div>
+                                                  <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                    <label class="form-check-label" for="inlineRadio2">2</label>
+                                                  </div>
+                                                  <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                                                    <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                                                  </div>
+                                                  <div>
+                                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                                                  </div>
+                                                  
+                                                  <div>
+                                                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </form>
                         </div>
@@ -1073,6 +1700,7 @@
     <script type="text/javascript" src="assets/scripts/main.js"></script>
     <script src="assets/scripts/font-awesome.min.js"></script>
     <script src="assets/scripts/full-screen.js"></script>
+    <script src="assets/scripts/sweetalert2.min.js"></script>
     <script src="assets/scripts/scripts.js"></script>
 
 </body>
